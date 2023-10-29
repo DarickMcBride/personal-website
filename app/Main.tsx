@@ -14,9 +14,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Link from "next/link";
-import AboutPage from "./about/page";
-import HomePage from "./home/page";
-import ContactPage from "./contact/page";
 
 const drawerWidth = 240;
 const navItems = [
