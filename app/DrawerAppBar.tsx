@@ -28,9 +28,16 @@ export default function DrawerAppBar() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
+      <Link href="/">
+        <Box
+          component="img"
+          sx={{ my: 2 }}
+          alt="DM Logo"
+          src={"/logo.svg"}
+          width={50}
+        />
+      </Link>
+
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -68,7 +75,9 @@ export default function DrawerAppBar() {
             />
           </Link>
 
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Box
+            sx={{ display: { xs: "none", sm: "block" }, marginLeft: "auto"}}
+          >
             {navItems.map((item) => (
               <Button key={item} sx={{ color: "#fff" }}>
                 {item}
