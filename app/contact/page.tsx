@@ -1,8 +1,8 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 const ContactPage = () => {
   return (
-    <Box sx={{ p: 4 }}>
+    <>
       <Typography variant="h4" color="primary" gutterBottom>
         Contact Me
       </Typography>
@@ -17,7 +17,7 @@ const ContactPage = () => {
         bibendum elit elit. Sed euismod, nisl vel bibendum bibendum, elit elit
         bibendum elit, nec bibendum elit elit.
       </Typography>
-    </Box>
+    </>
   );
 };
 

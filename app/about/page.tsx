@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 //calculate number of years since 2018
 const yearsSince = () => {
@@ -9,13 +9,13 @@ const yearsSince = () => {
 
 const AboutPage = () => {
   return (
-    <Box sx={{ p: 4, mr: 100 }}>
+    <>
       <Typography variant="h4" color="primary" gutterBottom>
         About Me
       </Typography>
       <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
         Hello there! My name is{" "}
-        <Typography variant="body1" color="secondary" component="strong" >
+        <Typography variant="body1" color="secondary" component="strong">
           Darick McBride
         </Typography>{" "}
         and I am a passionate senior software developer with {yearsSince()}{" "}
@@ -60,7 +60,7 @@ const AboutPage = () => {
         let&rsquo;s explore the limitless possibilities of software development
         and the world beyond our screens together.
       </Typography>
-    </Box>
+    </>
   );
 };
 

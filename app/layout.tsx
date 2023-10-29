@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { Metadata } from "next";
+import { Box } from "@mui/material";
 import ThemeRegistry from "./components/ThemeRegisty/ThemeRegistry";
 import Main from "./Main";
 
@@ -22,7 +23,9 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
-          <Main>{children}</Main>
+          <Main>
+            <Box sx={{ p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
+          </Main>
         </ThemeRegistry>
       </body>
     </html>

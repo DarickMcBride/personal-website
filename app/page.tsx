@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 
 const HomePage = () => {
   return (
-    <Box sx={{ p: 4, mr: 100 }}>
+    <>
       <Typography variant="h4" color="primary" gutterBottom>
         Welcome to my website!
       </Typography>
@@ -106,7 +106,7 @@ const HomePage = () => {
         edge of web development, and I hope you enjoy your experience here. If
         you have any questions or feedback, feel free to get in touch with me!
       </Typography>
-    </Box>
+    </>
   );
 };
 
