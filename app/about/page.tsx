@@ -9,16 +9,19 @@ const yearsSince = () => {
 
 const AboutPage = () => {
   return (
-    <Box sx={{ p: 4, mr: 200 }}>
+    <Box sx={{ p: 4, mr: 100 }}>
       <Typography variant="h4" color="primary" gutterBottom>
         About Me
       </Typography>
       <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
-        Hello there! My name is <strong>Darick McBride</strong> and I am a
-        passionate senior software developer with {yearsSince()} years of
-        industry experience. When I&rsquo;m not knee-deep in code, you can often
-        find me exploring the beauty of nature or spending quality time with my
-        furry friend Pixel.
+        Hello there! My name is{" "}
+        <Typography variant="body1" color="secondary" component="strong" >
+          Darick McBride
+        </Typography>{" "}
+        and I am a passionate senior software developer with {yearsSince()}{" "}
+        years of industry experience. When I&rsquo;m not knee-deep in code, you
+        can often find me exploring the beauty of nature or spending quality
+        time with my furry friend Pixel.
       </Typography>
 
       <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
