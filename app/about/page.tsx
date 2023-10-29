@@ -1,10 +1,10 @@
 import { Box, Typography } from "@mui/material";
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <Box sx={{ p: 4 }}>
       <Typography variant="h4" color="primary" gutterBottom>
-        Welcome to my website!
+        About Me
       </Typography>
       <Typography variant="body1" gutterBottom>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
@@ -21,4 +21,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default AboutPage;

@@ -1,8 +1,7 @@
+import * as React from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import ThemeRegistry from "./ThemeRegistry";
-
-const inter = Inter({ subsets: ["latin"] });
+import ThemeRegistry from "./components/ThemeRegisty/ThemeRegistry";
+import Main from "./Main";
 
 export const metadata: Metadata = {
   title: "Darick's Website",
@@ -20,7 +19,9 @@ export default function RootLayout({
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </head>
       <body>
-        <ThemeRegistry options={{ key: "mui" }}>{children}</ThemeRegistry>
+        <ThemeRegistry options={{ key: "mui" }}>
+          <Main>{children}</Main>
+        </ThemeRegistry>
       </body>
     </html>
   );
