@@ -24,11 +24,9 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
-          <Container maxWidth="xxl">
-            <Main>
-              <Box sx={{ p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
-            </Main>
-          </Container>
+          <Main>
+            <Box sx={{ p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
+          </Main>
         </ThemeRegistry>
       </body>
     </html>
