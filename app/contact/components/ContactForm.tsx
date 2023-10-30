@@ -121,7 +121,7 @@ const ContactForm = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                contactme@darickmcbride.com
+                https://www.linkedin.com/in/darickmcbride
               </Link>{" "}
               to learn more about my professional background and interests.
               Don&rsquo;t hesitate to send a connection request or a direct
@@ -140,7 +140,7 @@ const ContactForm = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                contactme@darickmcbride.com
+                https://github.com/DarickMcBride
               </Link>
               . You can explore my code repositories and see some of the
               projects I&rsquo;ve worked on. If you have any questions or would
