@@ -15,6 +15,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import Image from "next/legacy/image";
+import useScrollTrigger from "@mui/material/useScrollTrigger";
 
 const drawerWidth = 240;
 const navItems = [
@@ -23,7 +24,26 @@ const navItems = [
   { text: "Contact", href: "/contact" },
 ];
 
-export default function Main(props: { children: any }) {
+interface Props {
+  children: React.ReactElement;
+}
+
+function ElevationScroll(props: Props) {
+  const { children } = props;
+  // Note that you normally won't need to set the window ref as useScrollTrigger
+  // will default to window.
+  // This is only being set here because the demo is in an iframe.
+  const trigger = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 0,
+  });
+
+  return React.cloneElement(children, {
+    elevation: trigger ? 4 : 0,
+  });
+}
+
+const Main = (props: { children: any }) => {
   const { children } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -34,13 +54,7 @@ export default function Main(props: { children: any }) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Link href="/">
-        <Box
-          component="img"
-          sx={{ my: 2 }}
-          alt="DM Logo"
-          src={"/logo.svg"}
-          width={50}
-        />
+        <Box component="img" alt="DM Logo" src={"/logo.svg"} width={50} />
       </Link>
 
       <Divider />
@@ -63,46 +77,48 @@ export default function Main(props: { children: any }) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav">
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Link href="/">
-            <Box
-              component="img"
-              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-              alt="DM Logo"
-              src={"/logo.svg"}
-              width={50}
-            />
-          </Link>
+      <ElevationScroll {...props}>
+        <AppBar component="nav">
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              sx={{ mr: 2, display: { sm: "none" } }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Link href="/">
+              <Box
+                component="img"
+                sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+                alt="DM Logo"
+                src={"/logo.svg"}
+                width={50}
+              />
+            </Link>
 
-          <Box
-            sx={{
-              display: { xs: "none", sm: "block" },
-              marginLeft: "auto",
-            }}
-          >
-            {navItems.map(({ text, href }) => (
-              <Button
-                key={href}
-                component={Link}
-                href={href}
-                sx={{ color: "#fff" }}
-              >
-                {text}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
+            <Box
+              sx={{
+                display: { xs: "none", sm: "block" },
+                marginLeft: "auto",
+              }}
+            >
+              {navItems.map(({ text, href }) => (
+                <Button
+                  key={href}
+                  component={Link}
+                  href={href}
+                  sx={{ color: "#fff" }}
+                >
+                  {text}
+                </Button>
+              ))}
+            </Box>
+          </Toolbar>
+        </AppBar>
+      </ElevationScroll>
       <nav>
         <Drawer
           variant="temporary"
@@ -124,6 +140,7 @@ export default function Main(props: { children: any }) {
       </nav>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
+
         {children}
         <div
           style={{
@@ -142,4 +159,6 @@ export default function Main(props: { children: any }) {
       </Box>
     </Box>
   );
-}
+};
+
+export default Main;
