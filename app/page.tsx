@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 
 const HomePage = () => {
   return (
@@ -105,7 +105,19 @@ const HomePage = () => {
         technologies behind it. I&rsquo;m dedicated to staying at the cutting
         edge of web development, and I hope you enjoy your experience here. If
         you have any questions or feedback, feel free to get in touch with me!
+        You can find the source code for this website on my github at the link
+        below.
       </Typography>
+      <Button
+        variant="contained"
+        color="secondary"
+        href="https://github.com/DarickMcBride"
+        target="_blank"
+        rel="noopener noreferrer"
+        sx={{ mr: 1 }}
+      >
+        My github
+      </Button>
     </>
   );
 };

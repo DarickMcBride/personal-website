@@ -2,7 +2,7 @@ import * as React from "react";
 import type { Metadata } from "next";
 import { Box } from "@mui/material";
 import ThemeRegistry from "./components/ThemeRegisty/ThemeRegistry";
-import Main from "./Main";
+import Main from "./components/Main";
 
 export const metadata: Metadata = {
   title: "Darick's Website",
