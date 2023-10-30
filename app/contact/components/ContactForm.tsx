@@ -1,5 +1,12 @@
 "use client";
-import { Button, Box, useMediaQuery, IconButton } from "@mui/material";
+import {
+  Button,
+  Box,
+  useMediaQuery,
+  IconButton,
+  Link,
+  Stack,
+} from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -19,6 +26,7 @@ const ContactForm = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: isMobile ? "center" : "flex-start",
+          mb: 2,
         }}
       >
         {isMobile ? (
@@ -83,13 +91,80 @@ const ContactForm = () => {
         )}
       </Box>
       <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
-        My journey as a software developer started with a fascination for
-        turning lines of code into functional and user-friendly applications.
-        Over the years, I&rsquo;ve honed my skills and developed a profound
-        expertise in React, a technology that has revolutionized web development
-        and created endless possibilities for building interactive, dynamic, and
-        engaging web applications.
+        Thank you for visiting my website! I&rsquo;m excited to connect with you
+        and discuss any opportunities or inquiries you may have. There are
+        several ways to get in touch with me:
       </Typography>
+
+      <Box sx={{ pl: 4 }}>
+        <Stack spacing={1}>
+          <Box>
+            <Typography variant="body1" fontWeight="bold" color="secondary">
+              1. Email:{" "}
+            </Typography>
+            <Typography gutterBottom>
+              Feel free to reach out to me via email at{" "}
+              <Link href="mailto:contactme@darickmcbride.com">
+                contactme@darickmcbride.com
+              </Link>
+              . I check my email regularly and will do my best to respond to
+              your message promptly. Whether you have a business proposal, a
+              question, or just want to say hello, I&rsquo;d love to hear from
+              you.
+            </Typography>
+          </Box>
+          <Box>
+            <Typography variant="body1" fontWeight="bold" color="secondary">
+              2. Linkedin:{" "}
+            </Typography>
+            <Typography gutterBottom>
+              You can also connect with me on LinkedIn. Visit my LinkedIn
+              profile at{" "}
+              <Link
+                href="https://www.linkedin.com/in/darickmcbride"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                contactme@darickmcbride.com
+              </Link>{" "}
+              to learn more about my professional background and interests.
+              Don&rsquo;t hesitate to send a connection request or a direct
+              message, and I&rsquo;ll be sure to respond.
+            </Typography>
+          </Box>
+          <Box>
+            <Typography variant="body1" color="secondary" fontWeight="bold">
+              3. GitHub:{" "}
+            </Typography>
+            <Typography gutterBottom>
+              For a deeper look at my technical skills and projects, visit my
+              GitHub profile at{" "}
+              <Link
+                href="https://github.com/DarickMcBride"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                contactme@darickmcbride.com
+              </Link>
+              . You can explore my code repositories and see some of the
+              projects I&rsquo;ve worked on. If you have any questions or would
+              like to collaborate on a coding project, I&rsquo;d be happy to
+              discuss it. I&rsquo;m looking forward to hearing from you and
+              engaging in meaningful conversations. Whether it&rsquo;s about
+              business collaborations, tech discussions, or just a friendly
+              chat, I&rsquo;m here to connect. Let&rsquo;s get in touch and
+              explore the possibilities!
+            </Typography>
+          </Box>
+          <Typography>
+            I&rsquo;m looking forward to hearing from you and engaging in
+            meaningful conversations. Whether it&rsquo;s about job
+            opportunities, tech discussions, or just a friendly chat, I&rsquo;m
+            here to connect. Let&rsquo;s get in touch and explore the
+            possibilities!
+          </Typography>
+        </Stack>
+      </Box>
     </Box>
   );
 };

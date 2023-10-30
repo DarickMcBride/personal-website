@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const drawerWidth = 240;
 const navItems = [
