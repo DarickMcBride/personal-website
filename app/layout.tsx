@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Box } from "@mui/material";
 import ThemeRegistry from "./components/ThemeRegisty/ThemeRegistry";
 import Main from "./components/Main";
+import { Container } from "@mui/material";
 
 export const metadata: Metadata = {
   title: "Darick's Website",
@@ -23,9 +24,11 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
-          <Main>
-            <Box sx={{ p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
-          </Main>
+          <Container maxWidth="xl">
+            <Main>
+              <Box sx={{ p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
+            </Main>
+          </Container>
         </ThemeRegistry>
       </body>
     </html>

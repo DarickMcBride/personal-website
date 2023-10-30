@@ -28,7 +28,7 @@ const AboutPage = () => {
         <Typography variant="body1" color="secondary" component="strong">
           Darick McBride
         </Typography>{" "}
-        and I am a passionate senior software developer with {yearsSince()}{" "}
+        and I am a passionate Senior Software Developer with {yearsSince()}{" "}
         years of industry experience. When I&rsquo;m not knee-deep in code, you
         can often find me exploring the beauty of nature or spending quality
         time with my furry friend Pixel.
