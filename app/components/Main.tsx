@@ -36,9 +36,6 @@ interface Props {
 
 function ElevationScroll(props: Props) {
   const { children } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 0,
@@ -156,7 +153,7 @@ const Main = (props: { children: any }) => {
             top: "52%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            opacity: 0.2, // set the opacity of the background
+            opacity: 0.3, // set the opacity of the background
             zIndex: -1, // set the z-index to be behind the content
           }}
         >

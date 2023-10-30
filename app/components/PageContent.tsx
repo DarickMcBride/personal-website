@@ -1,6 +1,10 @@
+"use client";
 import { Box, Typography, Button, Stack } from "@mui/material";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const PageContent = () => {
+  //media query for mobile
+  const isMobile = useMediaQuery("(max-width:600px)");
   return (
     <div id="home">
       <Typography variant="h4" color="primary" gutterBottom>
@@ -15,7 +19,7 @@ const PageContent = () => {
           Here&rsquo;s a closer look at the technologies I&rsquo;ve used to
           craft this site:
         </Typography>
-        <Box sx={{ pl: 4 }}>
+        <Box sx={{ pl: isMobile ? 0 : 4 }}>
           <Box>
             <Typography variant="body1" fontWeight="bold" color="secondary">
               React:{" "}

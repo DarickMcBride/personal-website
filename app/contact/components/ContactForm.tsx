@@ -93,7 +93,7 @@ const ContactForm = () => {
         several ways to get in touch with me:
       </Typography>
 
-      <Box sx={{ pl: 4 }}>
+      <Box sx={{ pl: isMobile ? 0 : 4 }}>
         <Stack spacing={1}>
           <Box>
             <Typography variant="body1" fontWeight="bold" color="secondary">
