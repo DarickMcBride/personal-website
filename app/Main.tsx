@@ -14,6 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import Image from "next/image";
 
 const drawerWidth = 240;
 const navItems = [
@@ -124,6 +125,20 @@ export default function Main(props: { children: any }) {
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         {children}
+        <div
+          style={{
+            position: "fixed",
+            height: "100%",
+            width: "100%",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            opacity: 0.5, // set the opacity of the background
+            zIndex: -1, // set the z-index to be behind the content
+          }}
+        >
+          <Image src="/logo.svg" alt="Logo" layout="fill" objectFit="contain" />
+        </div>
       </Box>
     </Box>
   );

@@ -1,10 +1,20 @@
 import { Typography } from "@mui/material";
 
-//calculate number of years since 2018
+//calculate number of years since Oct 2018
 const yearsSince = () => {
   const startYear = 2018;
-  const currentYear = new Date().getFullYear();
-  return currentYear - startYear;
+  const startMonth = 9; // October is the 10th month, but JavaScript months are zero-indexed, so October is month 9
+  const startDate = new Date(startYear, startMonth);
+  const currentDate = new Date();
+  let years = currentDate.getFullYear() - startDate.getFullYear();
+  if (
+    currentDate.getMonth() < startDate.getMonth() ||
+    (currentDate.getMonth() === startDate.getMonth() &&
+      currentDate.getDate() < startDate.getDate())
+  ) {
+    years--;
+  }
+  return years;
 };
 
 const AboutPage = () => {
