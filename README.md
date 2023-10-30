@@ -1,5 +1,3 @@
-Welcome to my website!
-
 # My Website
 
 I firmly believe in the power of technology to create engaging and dynamic online experiences. My website is built on a robust and modern technology stack that combines the best tools and frameworks to deliver a seamless and visually appealing user experience. Here’s a closer look at the technologies I’ve used to craft this site:
