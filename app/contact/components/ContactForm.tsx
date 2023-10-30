@@ -108,7 +108,7 @@ const ContactForm = () => {
                 contactme@darickmcbride.com
               </Link>
               . I check my email regularly and will do my best to respond to
-              your message promptly. Whether you have a business proposal, a
+              your message promptly. Whether you have a job offer, a
               question, or just want to say hello, I&rsquo;d love to hear from
               you.
             </Typography>
@@ -148,7 +148,7 @@ const ContactForm = () => {
               </Link>
               . You can explore my code repositories and see some of the
               projects I&rsquo;ve worked on. If you have any questions or would
-              like to collaborate on a coding project, I&rsquo;d be happy to
+              like to know more, I&rsquo;d be happy to
               discuss it. I&rsquo;m looking forward to hearing from you and
               engaging in meaningful conversations. Whether it&rsquo;s about
               business collaborations, tech discussions, or just a friendly
