@@ -5,6 +5,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 const PageContent = () => {
   //media query for mobile
   const isMobile = useMediaQuery("(max-width:600px)");
+  
   return (
     <div id="home">
       <Typography variant="h4" color="primary" gutterBottom>
