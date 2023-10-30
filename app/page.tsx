@@ -116,7 +116,7 @@ const HomePage = () => {
         rel="noopener noreferrer"
         sx={{ mr: 1 }}
       >
-        My github
+        github
       </Button>
     </>
   );
