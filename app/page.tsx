@@ -2,11 +2,7 @@ import { Container } from "@mui/material";
 import PageContent from "./components/PageContent";
 
 const HomePage = () => {
-  return (
-   
-      <PageContent />
-
-  );
+  return <PageContent />;
 };
 
 export default HomePage;

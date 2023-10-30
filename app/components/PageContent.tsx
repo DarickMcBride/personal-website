@@ -2,7 +2,7 @@ import { Box, Typography, Button, Stack } from "@mui/material";
 
 const PageContent = () => {
   return (
-    <>
+    <div id="home">
       <Typography variant="h4" color="primary" gutterBottom>
         Welcome to my website!
       </Typography>
@@ -120,7 +120,7 @@ const PageContent = () => {
       >
         github
       </Button>
-    </>
+    </div>
   );
 };
 

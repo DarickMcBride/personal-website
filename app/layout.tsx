@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Box } from "@mui/material";
 import ThemeRegistry from "./components/ThemeRegisty/ThemeRegistry";
 import Main from "./components/Main";
-import { Container } from "@mui/material";
 
 export const metadata: Metadata = {
   title: "Darick's Website",

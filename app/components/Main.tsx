@@ -24,6 +24,12 @@ const navItems = [
   { text: "Contact", href: "/contact" },
 ];
 
+// const mobileNavItems = [
+//   { text: "Home", href: "/#" },
+//   { text: "About Me", href: "/#about" },
+//   { text: "Contact", href: "/#contact" },
+// ];
+
 interface Props {
   children: React.ReactElement;
 }
@@ -89,7 +95,7 @@ const Main = (props: { children: any }) => {
             >
               <MenuIcon />
             </IconButton>
-            <Link href="/">
+            <Link href="/#home">
               <Box
                 component="img"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}

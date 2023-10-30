@@ -19,7 +19,7 @@ const yearsSince = () => {
 
 const AboutPage = () => {
   return (
-    <>
+    <div id="about">
       <Typography variant="h4" color="primary" gutterBottom>
         About Me
       </Typography>
@@ -70,7 +70,7 @@ const AboutPage = () => {
         let&rsquo;s explore the limitless possibilities of software development
         and the world beyond our screens together.
       </Typography>
-    </>
+    </div>
   );
 };
 
