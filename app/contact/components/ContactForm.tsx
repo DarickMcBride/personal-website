@@ -16,19 +16,15 @@ const ContactForm = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   return (
-    <Box sx={{ pb: 3 }}>
+    <Box display="flex" flexDirection="column" sx={{ pb: 3, width: "100%" }}>
       <Typography variant="h4" color="primary" gutterBottom>
         Contact Me
       </Typography>
+      <Typography variant="body1" sx={{ mb: 1 }}>
+        You can contact me using the links below.
+      </Typography>
 
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: isMobile ? "center" : "flex-start",
-          mb: 2,
-        }}
-      >
+      <Box sx={{ mb: 1 }}>
         {isMobile ? (
           <>
             <IconButton
@@ -90,6 +86,7 @@ const ContactForm = () => {
           </>
         )}
       </Box>
+
       <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
         Thank you for visiting my website! I&rsquo;m excited to connect with you
         and discuss any opportunities or inquiries you may have. There are
@@ -108,9 +105,8 @@ const ContactForm = () => {
                 contactme@darickmcbride.com
               </Link>
               . I check my email regularly and will do my best to respond to
-              your message promptly. Whether you have a job offer, a
-              question, or just want to say hello, I&rsquo;d love to hear from
-              you.
+              your message promptly. Whether you have a job offer, a question,
+              or just want to say hello, I&rsquo;d love to hear from you.
             </Typography>
           </Box>
           <Box>
@@ -148,12 +144,11 @@ const ContactForm = () => {
               </Link>
               . You can explore my code repositories and see some of the
               projects I&rsquo;ve worked on. If you have any questions or would
-              like to know more, I&rsquo;d be happy to
-              discuss it. I&rsquo;m looking forward to hearing from you and
-              engaging in meaningful conversations. Whether it&rsquo;s about
-              business collaborations, tech discussions, or just a friendly
-              chat, I&rsquo;m here to connect. Let&rsquo;s get in touch and
-              explore the possibilities!
+              like to know more, I&rsquo;d be happy to discuss it. I&rsquo;m
+              looking forward to hearing from you and engaging in meaningful
+              conversations. Whether it&rsquo;s about business collaborations,
+              tech discussions, or just a friendly chat, I&rsquo;m here to
+              connect. Let&rsquo;s get in touch and explore the possibilities!
             </Typography>
           </Box>
           <Typography>
