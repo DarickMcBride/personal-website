@@ -105,8 +105,9 @@ const ContactForm = () => {
                 contactme@darickmcbride.com
               </Link>
               . I check my email regularly and will do my best to respond to
-              your message promptly. Whether you have a job offer, a question,
-              or just want to say hello, I&rsquo;d love to hear from you.
+              your message promptly. Whether you have a position that fits my
+              expertise, a question, or just want to say hello, I&rsquo;d love
+              to hear from you.
             </Typography>
           </Box>
           <Box>
@@ -153,7 +154,7 @@ const ContactForm = () => {
           </Box>
           <Typography>
             I&rsquo;m looking forward to hearing from you and engaging in
-            meaningful conversations. Whether it&rsquo;s about job
+            meaningful conversations. Whether it&rsquo;s about career
             opportunities, tech discussions, or just a friendly chat, I&rsquo;m
             here to connect. Let&rsquo;s get in touch and explore the
             possibilities!
