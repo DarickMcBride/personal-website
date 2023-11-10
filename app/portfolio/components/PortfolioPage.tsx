@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
+import { Box, Typography} from '@mui/material';
 
 const projects = [
   {
@@ -25,17 +26,20 @@ const projects = [
 
 const PortfolioPage = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      {projects.map((project) => (
-        <div key={project.name}>
-          <h2>{project.name}</h2>
-          <p>{project.description}</p>
-          <Image src={project.image} alt={project.name} />
-          <a href={project.githubLink}>GitHub</a>
-        </div>
-      ))}
-    </div>
+    <Box>
+      <Typography variant='h4'>Portfolio</Typography>
+      <Box  sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+        {projects.map((project) => (
+            <Box key={project.name}>
+                <h2>{project.name}</h2>
+                <p>{project.description}</p>
+                <Image width={350} height={350} src={project.image} alt={project.name} />
+                <a href={project.githubLink}>GitHub</a>
+            </Box>
+            
+        ))}
+      </Box>
+    </Box>
   );
 };
 
