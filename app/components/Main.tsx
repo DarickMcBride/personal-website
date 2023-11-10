@@ -21,6 +21,7 @@ const drawerWidth = 240;
 const navItems = [
   { text: "Home", href: "/" },
   { text: "About Me", href: "/about" },
+  { text: "Portfolio", href: "/portfolio" },
   { text: "Contact", href: "/contact" },
 ];
 
