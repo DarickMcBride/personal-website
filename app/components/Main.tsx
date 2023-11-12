@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -21,14 +21,11 @@ const drawerWidth = 240;
 const navItems = [
   { text: "Home", href: "/" },
   { text: "About Me", href: "/about" },
+  //{ text: "Portfolio", href: "/portfolio" },
   { text: "Contact", href: "/contact" },
 ];
 
-// const mobileNavItems = [
-//   { text: "Home", href: "/#" },
-//   { text: "About Me", href: "/#about" },
-//   { text: "Contact", href: "/#contact" },
-// ];
+
 
 interface Props {
   children: React.ReactElement;
@@ -57,7 +54,7 @@ const Main = (props: { children: any }) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Link href="/">
-        <Box component="img" alt="DM Logo" src={"/logo.svg"} width={50} />
+        <Box component="img" alt="DM Logo" src={"/icon.svg"} width={50} />
       </Link>
 
       <Divider />
@@ -97,7 +94,7 @@ const Main = (props: { children: any }) => {
                 component="img"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
                 alt="DM Logo"
-                src={"/logo.svg"}
+                src={"/icon.svg"}
                 width={50}
               />
             </Link>
@@ -157,7 +154,7 @@ const Main = (props: { children: any }) => {
             zIndex: -1, // set the z-index to be behind the content
           }}
         >
-          <Image src="/logo.svg" alt="Logo" layout="fill" objectFit="contain" />
+          <Image src="/icon.svg" alt="Logo" layout="fill" objectFit="contain" />
         </div>
       </Box>
     </Box>
