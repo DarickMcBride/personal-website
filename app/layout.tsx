@@ -16,11 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-        <link rel="mask-icon" href="/logo.svg" />
-      </head>
+
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
           <Main>
