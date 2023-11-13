@@ -148,9 +148,7 @@ const MyAppBar = (props: { children: any }) => {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-
+      <Box component="main" sx={{ mt: 5, p: 3 }}>
         {children}
         <div
           style={{

@@ -2,7 +2,7 @@ import * as React from "react";
 import type { Metadata } from "next";
 import { Box } from "@mui/material";
 import ThemeRegistry from "./components/theme/registry";
-import Main from "./components/app-bar";
+import AppBar from "./components/app-bar";
 
 export const metadata: Metadata = {
   title: "Darick's Website",
@@ -16,12 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
       <body>
         <ThemeRegistry options={{ key: "mui" }}>
-          <Main>
-            <Box sx={{width:"90%", p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>{children}</Box>
-          </Main>
+          <AppBar>
+            <Box sx={{ width: "90%", p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>
+              {children}
+            </Box>
+          </AppBar>
         </ThemeRegistry>
       </body>
     </html>
