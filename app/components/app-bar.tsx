@@ -18,6 +18,8 @@ import {
 import Link from "next/link";
 import Image from "next/legacy/image";
 import MenuIcon from "@mui/icons-material/Menu";
+import { usePathname } from "next/navigation";
+import { useTheme } from "@mui/material/styles";
 
 const drawerWidth = 240;
 const navItems = [
@@ -43,8 +45,10 @@ function ElevationScroll(props: Props) {
   });
 }
 
-const Main = (props: { children: any }) => {
+const MyAppBar = (props: { children: any }) => {
   const { children } = props;
+  const theme = useTheme();
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -64,7 +68,10 @@ const Main = (props: { children: any }) => {
             <ListItemButton
               component={Link}
               href={href}
-              sx={{ textAlign: "center" }}
+              sx={{
+                textAlign: "center",
+                color: pathname === href ? theme.palette.primary.main : "white",
+              }}
             >
               <ListItemText primary={text} />
             </ListItemButton>
@@ -110,7 +117,10 @@ const Main = (props: { children: any }) => {
                   key={href}
                   component={Link}
                   href={href}
-                  sx={{ color: "#fff" }}
+                  sx={{
+                    color:
+                      pathname === href ? theme.palette.primary.main : "white",
+                  }}
                 >
                   {text}
                 </Button>
@@ -161,4 +171,4 @@ const Main = (props: { children: any }) => {
   );
 };
 
-export default Main;
+export default MyAppBar;
