@@ -3,7 +3,6 @@ import { useState, ReactElement, cloneElement } from "react";
 import {
   AppBar,
   Box,
-  CssBaseline,
   IconButton,
   Toolbar,
   Button,
@@ -45,16 +44,19 @@ function ElevationScroll(props: Props) {
 }
 
 const MyAppBar = () => {
-  const theme = useTheme();
-  const pathname = usePathname();
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // const theme = useTheme();
+  // const pathname = usePathname();
+  // const [mobileOpen, setMobileOpen] = useState(false);
 
-  const handleDrawerToggle = () => {
-    setMobileOpen((prevState) => !prevState);
-  };
+  // const handleDrawerToggle = () => {
+  //   setMobileOpen((prevState) => !prevState);
+  // };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box
+      //onClick={handleDrawerToggle}
+      sx={{ textAlign: "center" }}
+    >
       <Link href="/">
         <Box component="img" alt="DM Logo" src={"/icon.svg"} width={50} />
       </Link>
@@ -88,7 +90,7 @@ const MyAppBar = () => {
               color="inherit"
               aria-label="open drawer"
               edge="start"
-              onClick={handleDrawerToggle}
+              //onClick={handleDrawerToggle}
               sx={{ mr: 2, display: { sm: "none" } }}
             >
               <MenuIcon />
@@ -130,8 +132,8 @@ const MyAppBar = () => {
       <nav>
         <Drawer
           variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
+          //open={mobileOpen}
+          //onClose={handleDrawerToggle}
           ModalProps={{
             keepMounted: true, // Better open performance on mobile.
           }}
