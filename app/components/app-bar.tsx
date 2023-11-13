@@ -117,11 +117,11 @@ const MyAppBar = (props: { children: any }) => {
                   key={href}
                   component={Link}
                   href={href}
-                  sx={
-                    {
-                      // color: pathname === href ? theme.palette.primary.main : "white",
-                    }
-                  }
+                  // sx={
+                  //   {
+                  //      color: pathname === href ? theme.palette.primary.main : "white",
+                  //   }
+                  // }
                 >
                   {text}
                 </Button>
