@@ -67,6 +67,7 @@ const MyAppBar = (props: { children: any }) => {
           <ListItem key={href} disablePadding>
             <ListItemButton
               component={Link}
+              prefetch={false}
               href={href}
               sx={{
                 textAlign: "center",
@@ -116,6 +117,7 @@ const MyAppBar = (props: { children: any }) => {
                 <Button
                   key={href}
                   component={Link}
+                  prefetch={false}
                   href={href}
                   sx={{
                     color:
