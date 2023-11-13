@@ -65,18 +65,16 @@ const MyAppBar = (props: { children: any }) => {
       <List>
         {navItems.map(({ text, href }) => (
           <ListItem key={href} disablePadding>
-            <Link href={href} passHref>
-              <ListItemButton
-                component={"a"}
-                sx={{
-                  textAlign: "center",
-                  color:
-                    pathname === href ? theme.palette.primary.main : "white",
-                }}
-              >
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </Link>
+            <ListItemButton
+              component={Link}
+              href={href}
+              sx={{
+                textAlign: "center",
+                //color: pathname === href ? theme.palette.primary.main : "white",
+              }}
+            >
+              <ListItemText primary={text} />
+            </ListItemButton>
           </ListItem>
         ))}
       </List>
@@ -115,18 +113,18 @@ const MyAppBar = (props: { children: any }) => {
               }}
             >
               {navItems.map(({ text, href }) => (
-                <Link key={href} href={href} passHref>
-                  <Button
-                    sx={{
-                      color:
-                        pathname === href
-                          ? theme.palette.primary.main
-                          : "white",
-                    }}
-                  >
-                    {text}
-                  </Button>
-                </Link>
+                <Button
+                  key={href}
+                  component={Link}
+                  href={href}
+                  sx={
+                    {
+                      // color: pathname === href ? theme.palette.primary.main : "white",
+                    }
+                  }
+                >
+                  {text}
+                </Button>
               ))}
             </Box>
           </Toolbar>
