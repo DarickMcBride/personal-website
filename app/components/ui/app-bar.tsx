@@ -26,6 +26,7 @@ const navItems = [
   //{ text: "Portfolio", href: "/portfolio" },
   { text: "Contact", href: "/contact" },
 ];
+//
 
 interface Props {
   children: ReactElement;
