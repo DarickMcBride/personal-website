@@ -84,7 +84,7 @@ const MyAppBar = () => {
   return (
     <>
       <ElevationScroll>
-        <AppBar component="nav">
+        <AppBar>
           <Toolbar>
             <IconButton
               color="inherit"
