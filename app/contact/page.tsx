@@ -1,6 +1,6 @@
 import { Typography, Box, Stack, Link } from "@mui/material";
-import ContactButtons from "./components/contact-buttons";
-import ContactBody from "./components/contact-body";
+import ContactButtons from "./components/ui/contact-buttons";
+import ContactBody from "./components/ui/contact-body";
 
 const Page = () => {
   return (

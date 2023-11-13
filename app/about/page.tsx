@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import SkillsList from "./components/skills-list";
+import SkillsList from "./components/ui/skills-list";
 
 //calculate number of years since Oct 2018
 const yearsSince = () => {

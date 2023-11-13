@@ -1,5 +1,5 @@
 import { Box, Typography, Button, Stack } from "@mui/material";
-import TechStackList from "./components/tech-stack-list";
+import TechStackList from "./components/ui/tech-stack-list";
 
 const Page = () => {
   return (
