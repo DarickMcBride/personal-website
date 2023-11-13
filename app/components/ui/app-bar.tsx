@@ -54,9 +54,9 @@ const MyAppBar = () => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Link href="/">
+      <NextLink inkhref="/">
         <Box component="img" alt="DM Logo" src={"/icon.svg"} width={50} />
-      </Link>
+      </NextLink>
 
       <Divider />
       <List>
