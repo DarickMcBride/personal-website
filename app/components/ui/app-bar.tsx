@@ -83,52 +83,50 @@ const MyAppBar = () => {
 
   return (
     <>
-      <ElevationScroll>
-        <AppBar>
-          <Toolbar>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              edge="start"
-              //onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { sm: "none" } }}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Link href="/" passHref>
-              <Box
-                component="img"
-                sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-                alt="DM Logo"
-                src={"/icon.svg"}
-                width={50}
-              />
-            </Link>
-
+      <AppBar>
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            //onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { sm: "none" } }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Link href="/" passHref>
             <Box
-              sx={{
-                display: { xs: "none", sm: "block" },
-                marginLeft: "auto",
-              }}
-            >
-              {navItems.map(({ text, href }) => (
-                <Button
-                  key={href}
-                  component={Link}
-                  href={href}
-                  // sx={
-                  //   {
-                  //      color: pathname === href ? theme.palette.primary.main : "white",
-                  //   }
-                  // }
-                >
-                  {text}
-                </Button>
-              ))}
-            </Box>
-          </Toolbar>
-        </AppBar>
-      </ElevationScroll>
+              component="img"
+              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+              alt="DM Logo"
+              src={"/icon.svg"}
+              width={50}
+            />
+          </Link>
+
+          <Box
+            sx={{
+              display: { xs: "none", sm: "block" },
+              marginLeft: "auto",
+            }}
+          >
+            {navItems.map(({ text, href }) => (
+              <Button
+                key={href}
+                component={Link}
+                href={href}
+                // sx={
+                //   {
+                //      color: pathname === href ? theme.palette.primary.main : "white",
+                //   }
+                // }
+              >
+                {text}
+              </Button>
+            ))}
+          </Box>
+        </Toolbar>
+      </AppBar>
 
       <Drawer
         variant="temporary"
