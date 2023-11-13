@@ -96,7 +96,7 @@ const MyAppBar = (props: { children: any }) => {
             >
               <MenuIcon />
             </IconButton>
-            <Link href="/#home" passHref>
+            <Link href="/" passHref>
               <Box
                 component="img"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
