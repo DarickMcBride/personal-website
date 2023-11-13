@@ -14,7 +14,7 @@ import {
   ListItemText,
   useScrollTrigger,
 } from "@mui/material";
-import Link from "next/link";
+import NextLink from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import { usePathname } from "next/navigation";
 import { useTheme } from "@mui/material/styles";
@@ -44,19 +44,16 @@ function ElevationScroll(props: Props) {
 }
 
 const MyAppBar = () => {
-  // const theme = useTheme();
-  // const pathname = usePathname();
-  // const [mobileOpen, setMobileOpen] = useState(false);
+  const theme = useTheme();
+  const pathname = usePathname();
+  const [mobileOpen, setMobileOpen] = useState(false);
 
-  // const handleDrawerToggle = () => {
-  //   setMobileOpen((prevState) => !prevState);
-  // };
+  const handleDrawerToggle = () => {
+    setMobileOpen((prevState) => !prevState);
+  };
 
   const drawer = (
-    <Box
-      //onClick={handleDrawerToggle}
-      sx={{ textAlign: "center" }}
-    >
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Link href="/">
         <Box component="img" alt="DM Logo" src={"/icon.svg"} width={50} />
       </Link>
@@ -66,7 +63,7 @@ const MyAppBar = () => {
         {navItems.map(({ text, href }) => (
           <ListItem key={href} disablePadding>
             <ListItemButton
-              component={Link}
+              component={NextLink}
               href={href}
               sx={{
                 textAlign: "center",
@@ -83,68 +80,71 @@ const MyAppBar = () => {
 
   return (
     <>
-      <AppBar>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            //onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Link href="/" passHref>
+      <ElevationScroll>
+        <AppBar component="nav">
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              sx={{ mr: 2, display: { sm: "none" } }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <NextLink href="/" passHref>
+              <Box
+                component="img"
+                sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+                alt="DM Logo"
+                src={"/icon.svg"}
+                width={50}
+              />
+            </NextLink>
+
             <Box
-              component="img"
-              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-              alt="DM Logo"
-              src={"/icon.svg"}
-              width={50}
-            />
-          </Link>
-
-          <Box
-            sx={{
-              display: { xs: "none", sm: "block" },
-              marginLeft: "auto",
-            }}
-          >
-            {navItems.map(({ text, href }) => (
-              <Button
-                key={href}
-                component={Link}
-                href={href}
-                // sx={
-                //   {
-                //      color: pathname === href ? theme.palette.primary.main : "white",
-                //   }
-                // }
-              >
-                {text}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
-
-      <Drawer
-        variant="temporary"
-        //open={mobileOpen}
-        //onClose={handleDrawerToggle}
-        ModalProps={{
-          keepMounted: true, // Better open performance on mobile.
-        }}
-        sx={{
-          display: { xs: "block", sm: "none" },
-          "& .MuiDrawer-paper": {
-            boxSizing: "border-box",
-            width: drawerWidth,
-          },
-        }}
-      >
-        {drawer}
-      </Drawer>
+              sx={{
+                display: { xs: "none", sm: "block" },
+                marginLeft: "auto",
+              }}
+            >
+              {navItems.map(({ text, href }) => (
+                <Button
+                  key={href}
+                  component={NextLink}
+                  href={href}
+                  // sx={
+                  //   {
+                  //      color: pathname === href ? theme.palette.primary.main : "white",
+                  //   }
+                  // }
+                >
+                  {text}
+                </Button>
+              ))}
+            </Box>
+          </Toolbar>
+        </AppBar>
+      </ElevationScroll>
+      <nav>
+        <Drawer
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            display: { xs: "block", sm: "none" },
+            "& .MuiDrawer-paper": {
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
+          }}
+        >
+          {drawer}
+        </Drawer>
+      </nav>
     </>
   );
 };
