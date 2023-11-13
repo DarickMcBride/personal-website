@@ -66,14 +66,14 @@ const MyAppBar = (props: { children: any }) => {
         {navItems.map(({ text, href }) => (
           <ListItem key={href} disablePadding>
             <ListItemButton
-              component={Link}
-              href={href}
               sx={{
                 textAlign: "center",
                 color: pathname === href ? theme.palette.primary.main : "white",
               }}
             >
-              <ListItemText primary={text} />
+              <ListItemText primary={text}>
+                <Link href={href} />
+              </ListItemText>
             </ListItemButton>
           </ListItem>
         ))}
@@ -122,7 +122,7 @@ const MyAppBar = (props: { children: any }) => {
                       pathname === href ? theme.palette.primary.main : "white",
                   }}
                 >
-                  {text}
+                  <Link href={href}>{text}</Link>
                 </Button>
               ))}
             </Box>
