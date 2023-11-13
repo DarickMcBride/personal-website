@@ -61,18 +61,9 @@ const MyAppBar = () => {
       <Divider />
       <List>
         {navItems.map(({ text, href }) => (
-          <ListItem key={href} disablePadding>
-            <ListItemButton
-              component={NextLink}
-              href={href}
-              sx={{
-                textAlign: "center",
-                //color: pathname === href ? theme.palette.primary.main : "white",
-              }}
-            >
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
+          <NextLink href={href} key={href}>
+            {text}
+          </NextLink>
         ))}
       </List>
     </Box>
@@ -113,11 +104,10 @@ const MyAppBar = () => {
                   key={href}
                   component={NextLink}
                   href={href}
-                  // sx={
-                  //   {
-                  //      color: pathname === href ? theme.palette.primary.main : "white",
-                  //   }
-                  // }
+                  sx={{
+                    color:
+                      pathname === href ? theme.palette.primary.main : "white",
+                  }}
                 >
                   {text}
                 </Button>
