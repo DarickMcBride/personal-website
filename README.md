@@ -18,9 +18,6 @@ For the design and aesthetics of my website, I’ve chosen Material UI, a popula
 
 I take code quality seriously, and that’s why I’ve implemented TypeScript in my development process. TypeScript is a statically typed superset of JavaScript, which helps catch errors during development and enhances code maintainability and scalability. It ensures that my codebase remains clean, readable, and reliable.
 
-## Netlify
-
-Hosting and deployment are essential aspects of any web project. I’ve opted for Netlify, a reliable and easy-to-use platform that simplifies the deployment process. With features like continuous integration and automated deployments, I can maintain my website with ease, ensuring it’s always up-to-date and running smoothly.
 
 ## GitHub Copilot
 

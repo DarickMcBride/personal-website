@@ -68,19 +68,7 @@ const Page = () => {
               and reliable.
             </Typography>
           </Box>
-          <Box>
-            <Typography variant="body1" fontWeight="bold" color="secondary">
-              Netlify:{" "}
-            </Typography>
-            <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
-              Hosting and deployment are essential aspects of any web project.
-              I&rsquo;ve opted for Netlify, a reliable and easy-to-use platform
-              that simplifies the deployment process. With features like
-              continuous integration and automated deployments, I can maintain
-              my website with ease, ensuring it&rsquo;s always up-to-date and
-              running smoothly.
-            </Typography>
-          </Box>
+
           <Box>
             <Typography variant="body1" fontWeight="bold" color="secondary">
               GitHub Copilot{" "}
@@ -96,11 +84,11 @@ const Page = () => {
         <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
-          React, Next.js, Material UI, TypeScript, and Netlify, I&rsquo;ve
-          created a platform that not only showcases my content effectively but
-          also provides a delightful user experience. I continuously update and
-          optimize my technology stack to ensure that my website remains at the
-          forefront of web development standards.
+          React, Next.js, Material UI, TypeScript, I&rsquo;ve created a platform
+          that not only showcases my content effectively but also provides a
+          delightful user experience. I continuously update and optimize my
+          technology stack to ensure that my website remains at the forefront of
+          web development standards.
         </Typography>
         <Typography sx={{ pb: 1 }} variant="body1" gutterBottom>
           Thank you for visiting my website and for taking an interest in the
