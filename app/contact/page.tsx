@@ -7,7 +7,7 @@ const Page = () => {
     <Box
       display="flex"
       flexDirection="column"
-      sx={{ pb: 3, overflowX: "hidden" }}
+      sx={{ pb: 3, overflowX: "hidden", position: "relative" }}
     >
       <Typography variant="h4" color="primary" gutterBottom>
         Contact Me
