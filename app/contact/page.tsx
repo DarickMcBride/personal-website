@@ -5,7 +5,7 @@ import ContactBody from "./components/ui/contact-body";
 const Page = () => {
   return (
 
-      <Box display="flex" flexDirection="column" sx={{ pb: 3, width: "100%" }}>
+      <Box display="flex" maxWidth={"100%"} flexDirection="column" sx={{ pb: 3}}>
         <Typography variant="h4" color="primary" gutterBottom>
           Contact Me
         </Typography>
