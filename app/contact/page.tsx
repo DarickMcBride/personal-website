@@ -7,7 +7,7 @@ const Page = () => {
     <Box
       display="flex"
       flexDirection="column"
-      sx={{ pb: 3, overflowX: "hidden", width: "100%" }}
+      sx={{ pb: 3, overflowX: "hidden", maxWidth: "100%" }}
     >
       <Typography variant="h4" color="primary" gutterBottom>
         Contact Me
