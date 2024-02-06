@@ -7,7 +7,7 @@ const Page = () => {
     <Box
       display="flex"
       flexDirection="column"
-      sx={{ pb:  }}
+      sx={{ pb: 3 }}
     >
       <Typography variant="h4" color="primary" gutterBottom>
         Contact Me
