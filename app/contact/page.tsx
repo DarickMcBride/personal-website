@@ -43,7 +43,7 @@ const Page = () => {
               </Typography>
               <Typography gutterBottom>
                 You can also connect with me on LinkedIn. Visit my LinkedIn
-                profile at my LinkedIn{" "}
+                profile{" "}
                 <Link
                   href="https://www.linkedin.com/in/darickmcbride"
                   target="_blank"
@@ -62,7 +62,7 @@ const Page = () => {
               </Typography>
               <Typography gutterBottom>
                 For a deeper look at my technical skills and projects, visit my
-                GitHub profile at my GitHub{" "}
+                GitHub profile{" "}
                 <Link
                   href="https://github.com/DarickMcBride"
                   target="_blank"
