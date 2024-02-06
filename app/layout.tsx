@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ overflowX: "hidden", maxWidth: "100%" }}>
         <ThemeRegistry options={{ key: "mui" }}>
           <Main>
             <Box sx={{ width: "90%", p: 4, mr: { md: 0, lg: 50, xl: 75 } }}>
