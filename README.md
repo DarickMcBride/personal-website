@@ -1,24 +1,36 @@
-# My Website
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-I firmly believe in the power of technology to create engaging and dynamic online experiences. My website is built on a robust and modern technology stack that combines the best tools and frameworks to deliver a seamless and visually appealing user experience. Here’s a closer look at the technologies I’ve used to craft this site:
+## Getting Started
 
-## React
+First, run the development server:
 
-At the heart of my website is React, a popular JavaScript library for building user interfaces. React allows me to create interactive and responsive web applications that provide a smooth and enjoyable browsing experience. It’s the foundation of my website’s frontend, enabling me to build complex UI components and manage state efficiently.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Next.js
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-I’ve leveraged Next.js, a powerful framework built on top of React, to enhance the performance and SEO-friendliness of my website. Next.js enables server-side rendering, automatic code splitting, and simplified routing, all of which contribute to faster load times and a better overall user experience.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Material UI
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-For the design and aesthetics of my website, I’ve chosen Material UI, a popular React UI framework based on Google’s Material Design principles. Material UI provides a wealth of pre-designed components and styling options, allowing me to maintain a clean and visually appealing design while saving development time.
+## Learn More
 
-## TypeScript
+To learn more about Next.js, take a look at the following resources:
 
-I take code quality seriously, and that’s why I’ve implemented TypeScript in my development process. TypeScript is a statically typed superset of JavaScript, which helps catch errors during development and enhances code maintainability and scalability. It ensures that my codebase remains clean, readable, and reliable.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## GitHub Copilot
+## Deploy on Vercel
 
-To streamline and enhance my coding process, I’ve integrated GitHub Copilot into my development workflow. Copilot provides intelligent code suggestions and automation, making coding more efficient and helping me deliver high-quality code faster.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
