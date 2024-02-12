@@ -2,7 +2,7 @@ import ContactButtons from "../components/ContactButtons";
 
 export default function ContactPage() {
   return (
-    <div className="flex min-h-screen flex-col items-center p-20">
+    <div className="flex min-h-screen flex-col items-center ">
       <h1 className="text-primary text-2xl p-4">About Me</h1>
       <div>
         <p>

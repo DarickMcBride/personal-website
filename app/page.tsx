@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-20 z-10">
+    <main className="flex min-h-screen flex-col items-center z-10">
       <h1 className="text-primary text-2xl p-4">Welcome!</h1>
       <div className="space-y-3">
         <p>

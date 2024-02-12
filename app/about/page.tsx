@@ -18,7 +18,7 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center p-20">
+    <div className="flex min-h-screen flex-col items-center">
       <h1 className="text-primary text-2xl p-4">About Me</h1>
       <div className="space-y-3">
         <p>

@@ -24,7 +24,7 @@ export default function RootLayout({
           <AppBar />
 
           <Background />
-          <div className="backdrop-filter backdrop-blur-lg z-10">
+          <div className="backdrop-filter backdrop-blur-lg z-10 sm:p-20 p-10 ">
             {children}
           </div>
         </Providers>
