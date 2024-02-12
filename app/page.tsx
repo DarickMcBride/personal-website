@@ -33,7 +33,7 @@ export default function Home() {
           </dd>
           <dt className="text-secondary text-lg">TailwindCSS and DaisyUI</dt>
           <dd>
-            For styling my website, I've chosen TailwindCSS and DaisyUI.
+            For styling my website, I&apos;ve chosen TailwindCSS and DaisyUI.
             TailwindCSS is a utility-first CSS framework that allows for highly
             customizable designs with a low-level, component-friendly approach.
             It promotes consistency, productivity and maintainability across the
