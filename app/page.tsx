@@ -89,7 +89,7 @@ export default function Home() {
             size={32}
           />
         </a>
-        <button className="btn btn-primary hidden sm:block ">
+        <button className="btn btn-primary hidden sm:flex">
           GitHub
           <FaGithub className="h-6 w-6" />
         </button>
