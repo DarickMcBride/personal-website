@@ -37,7 +37,9 @@ export default function AppBar() {
             </li>
           </ul>
         </div>
-        <Image src={"/icon.svg"} alt="Website logo" width={50} height={50} />
+           <a href="/" className="hover:opacity-80 transition-opacity duration-200">
+          <Image src={"/icon.svg"} alt="Website logo" width={50} height={50} />
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

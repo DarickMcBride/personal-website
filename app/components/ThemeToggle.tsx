@@ -11,7 +11,7 @@ export default function ThemeToggle() {
 
   useEffect(() => setMounted(true), []);
   return (
-    <label className="swap swap-rotate">
+    <label className="swap swap-rotate text-primary hover:text-secondary hover:opacity-80 transition-opacity duration-200">
       {/* this hidden checkbox controls the state */}
       <input
         type="checkbox"
@@ -22,7 +22,7 @@ export default function ThemeToggle() {
 
       {/* sun icon */}
       <svg
-        className={`text-primary swap-on fill-current w-10 h-10`}
+        className={`swap-on fill-current w-10 h-10`}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -31,7 +31,7 @@ export default function ThemeToggle() {
 
       {/* moon icon */}
       <svg
-        className={`text-primary swap-off fill-current w-10 h-10`}
+        className={`swap-off fill-current w-10 h-10`}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >

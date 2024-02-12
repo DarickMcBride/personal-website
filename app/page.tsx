@@ -53,7 +53,7 @@ export default function Home() {
           </dd>
           <dt className="text-secondary text-lg">GitHub Copilot</dt>
           <dd>
-            - To streamline and enhance my coding process, I&apos;ve integrated
+            To streamline and enhance my coding process, I&apos;ve integrated
             GitHub Copilot into my development workflow. Copilot provides
             intelligent code suggestions and automation, making coding more
             efficient and helping me deliver high-quality code faster.
@@ -83,7 +83,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="text-primary" size={32} />
+          <FaGithub
+            className="text-primary hover:text-secondary hover:opacity-80 transition-opacity duration-200"
+            size={32}
+          />
         </a>
       </div>
     </main>
