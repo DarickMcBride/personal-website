@@ -11,7 +11,7 @@ export default function ThemeToggle() {
 
   useEffect(() => setMounted(true), []);
   return (
-    <label className="swap swap-rotate text-primary hover:text-secondary hover:opacity-80 transition-opacity duration-200">
+    <label className="swap swap-rotate btn btn-circle btn-ghost text-primary">
       {/* this hidden checkbox controls the state */}
       <input
         type="checkbox"

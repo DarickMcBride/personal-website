@@ -79,15 +79,20 @@ export default function Home() {
       </div>
       <div className="text-center py-4">
         <a
+          className="sm:hidden"
           href="https://github.com/DarickMcBride"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub
-            className="text-primary hover:text-secondary hover:opacity-80 transition-opacity duration-200"
+            className="btn btn-circle btn-ghost text-primary"
             size={32}
           />
         </a>
+        <button className="btn btn-primary hidden sm:block ">
+          GitHub
+          <FaGithub className="h-6 w-6" />
+        </button>
       </div>
     </main>
   );

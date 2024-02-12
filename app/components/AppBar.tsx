@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ThemeToggle from "./ThemeToggle";
+import Link from "next/link";
 
 export default function AppBar() {
   return (
@@ -27,30 +28,33 @@ export default function AppBar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52"
           >
             <li>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About Me</a>
+              <Link  href="/about">About Me</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
-           <a href="/" className="hover:opacity-80 transition-opacity duration-200">
+        <a
+          href="/"
+          className="hover:opacity-80 transition-opacity duration-200"
+        >
           <Image src={"/icon.svg"} alt="Website logo" width={50} height={50} />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/">Home</a>
+            <Link  href="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About Me</a>
+            <Link  href="/about">About Me</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link  href="/contact">Contact</Link>
           </li>
         </ul>
       </div>
