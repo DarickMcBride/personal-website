@@ -31,30 +31,30 @@ export default function AppBar() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link  href="/about">About Me</Link>
+              <Link href="/about">About Me</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
-        <a
+        <Link
           href="/"
           className="hover:opacity-80 transition-opacity duration-200"
         >
           <Image src={"/icon.svg"} alt="Website logo" width={50} height={50} />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link  href="/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link  href="/about">About Me</Link>
+            <Link href="/about">About Me</Link>
           </li>
           <li>
-            <Link  href="/contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </div>

@@ -4,12 +4,11 @@ import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
   const { theme, setTheme, systemTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [themeType, setThemeType] = useState("corporate");
 
   //get the current theme
   const currentTheme = theme === "system" ? systemTheme : theme;
 
-  useEffect(() => setMounted(true), []);
   return (
     <label className="swap swap-rotate btn btn-circle btn-ghost text-primary">
       {/* this hidden checkbox controls the state */}
@@ -17,7 +16,9 @@ export default function ThemeToggle() {
         type="checkbox"
         className="theme-controller"
         value={currentTheme}
-        onClick={() => setTheme(currentTheme === "light" ? "dark" : "light")}
+        onClick={() =>
+          setTheme(currentTheme === "corporate" ? "night" : "corporate")
+        }
       />
 
       {/* sun icon */}
