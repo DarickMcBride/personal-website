@@ -6,7 +6,7 @@ export default function ContactPage() {
       <h1 className="text-primary text-2xl p-4">About Me</h1>
       <div>
         <p>
-          Thank you for visiting my website! I&rsquo;m excited to connect with
+          Thank you for visiting my website! I&apos;m excited to connect with
           you and discuss any opportunities or inquiries you may have. There are
           several ways to get in touch with me:
         </p>
@@ -19,7 +19,7 @@ export default function ContactPage() {
             </a>
             . I check my email regularly and will do my best to respond to your
             message promptly. Whether you have a position that fits my
-            expertise, a question, or just want to say hello, I&rsquo;d love to
+            expertise, a question, or just want to say hello, I&apos;d love to
             hear from you.
           </dd>
           <dt className="text-secondary text-lg">Linkedin:</dt>
@@ -34,8 +34,8 @@ export default function ContactPage() {
               here
             </a>{" "}
             to learn more about my professional background and interests.
-            Don&rsquo;t hesitate to send a connection request or a direct
-            message, and I&rsquo;ll be sure to respond.
+            Don&apos;t hesitate to send a connection request or a direct
+            message, and I&apos;ll be sure to respond.
           </dd>
           <dt className="text-secondary text-lg">GitHub:</dt>
           <dd>
@@ -50,20 +50,20 @@ export default function ContactPage() {
               here
             </a>
             . You can explore my code repositories and see some of the projects
-            I&rsquo;ve worked on. If you have any questions or would like to
-            know more, I&rsquo;d be happy to discuss it. I&rsquo;m looking
-            forward to hearing from you and engaging in meaningful
-            conversations. Whether it&rsquo;s about business collaborations,
-            tech discussions, or just a friendly chat, I&rsquo;m here to
-            connect. Let&rsquo;s get in touch and explore the possibilities!
+            I&apos;ve worked on. If you have any questions or would like to know
+            more, I&apos;d be happy to discuss it. I&apos;m looking forward to
+            hearing from you and engaging in meaningful conversations. Whether
+            it&apos;s about business collaborations, tech discussions, or just a
+            friendly chat, I&apos;m here to connect. Let&apos;s get in touch and
+            explore the possibilities!
           </dd>
         </dl>
-        <ContactButtons  />
+        <ContactButtons />
         <p className="pt-2">
-          I&rsquo;m looking forward to hearing from you and engaging in
-          meaningful conversations. Whether it&rsquo;s about career
-          opportunities, tech discussions, or just a friendly chat, I&rsquo;m
-          here to connect. Let&rsquo;s get in touch and explore the
+          I&apos;m looking forward to hearing from you and engaging in
+          meaningful conversations. Whether it&apos;s about career
+          opportunities, tech discussions, or just a friendly chat, I&apos;m
+          here to connect. Let&apos;s get in touch and explore the
           possibilities!
         </p>
       </div>

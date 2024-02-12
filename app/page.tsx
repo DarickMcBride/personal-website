@@ -10,9 +10,8 @@ export default function Home() {
           I firmly believe in the power of technology to create engaging and
           dynamic online experiences. My website is built on a robust and modern
           technology stack that combines the best tools and frameworks to
-          deliver a seamless and visually appealing user experience.
-          Here&rsquo;s a closer look at the technologies I&rsquo;ve used to
-          craft this site:
+          deliver a seamless and visually appealing user experience. Here&apos;s
+          a closer look at the technologies I&apos;ve used to craft this site:
         </p>
         <dl className="space-y-2">
           <dt className="text-secondary text-lg">React</dt>
@@ -20,13 +19,13 @@ export default function Home() {
             At the heart of my website is React, a popular JavaScript library
             for building user interfaces. React allows me to create interactive
             and responsive web applications that provide a smooth and enjoyable
-            browsing experience. It&rsquo;s the foundation of my website&rsquo;s
+            browsing experience. It&apos;s the foundation of my website&apos;s
             frontend, enabling me to build complex UI components and manage
             state efficiently.
           </dd>
           <dt className="text-secondary text-lg">Next.js (App Router)</dt>
           <dd>
-            I&rsquo;ve leveraged Next.js, a powerful framework built on top of
+            I&apos;ve leveraged Next.js, a powerful framework built on top of
             React, to enhance the performance and SEO-friendliness of my
             website. Next.js enables server-side rendering, automatic code
             splitting, and simplified routing, all of which contribute to faster
@@ -45,7 +44,7 @@ export default function Home() {
           </dd>
           <dt className="text-secondary text-lg">TypeScript</dt>
           <dd>
-            I take code quality seriously, and that&rsquo;s why I&rsquo;ve
+            I take code quality seriously, and that&apos;s why I&apos;ve
             implemented TypeScript in my development process. TypeScript is a
             statically typed superset of JavaScript, which helps catch errors
             during development and enhances code maintainability and
@@ -54,7 +53,7 @@ export default function Home() {
           </dd>
           <dt className="text-secondary text-lg">GitHub Copilot</dt>
           <dd>
-            - To streamline and enhance my coding process, I&rsquo;ve integrated
+            - To streamline and enhance my coding process, I&apos;ve integrated
             GitHub Copilot into my development workflow. Copilot provides
             intelligent code suggestions and automation, making coding more
             efficient and helping me deliver high-quality code faster.
@@ -63,7 +62,7 @@ export default function Home() {
         <p>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
-          React, Next.js, Material UI, TypeScript, I&rsquo;ve created a platform
+          React, Next.js, Material UI, TypeScript, I&apos;ve created a platform
           that not only showcases my content effectively but also provides a
           delightful user experience. I continuously update and optimize my
           technology stack to ensure that my website remains at the forefront of
@@ -71,7 +70,7 @@ export default function Home() {
         </p>
         <p>
           Thank you for visiting my website and for taking an interest in the
-          the technologies behind it. I&rsquo;m dedicated to staying at the
+          the technologies behind it. I&apos;m dedicated to staying at the
           cutting edge of web development, and I hope you enjoy your experience
           here. If you have any questions or feedback, feel free to get in touch
           with me! You can find the source code for this website on my github at
