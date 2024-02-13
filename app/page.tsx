@@ -67,7 +67,7 @@ export default function Home() {
             me deliver high-quality code faster.
           </dd>
         </dl>
-        <div className="divider divider-secondary mx-40"></div>
+        <div className="divider divider-secondary mx-[20%]"></div>
         <p>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
@@ -98,7 +98,7 @@ export default function Home() {
             size={32}
           />
         </a>
-        <button className="btn btn-primary  hidden sm:flex">
+        <button className="btn btn-primary hidden sm:flex">
           GitHub
           <FaGithub className="h-6 w-6" />
         </button>
