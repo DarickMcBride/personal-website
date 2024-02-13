@@ -61,10 +61,10 @@ export default function Home() {
             GitHub Copilot
           </dt>
           <dd>
-            To streamline and enhance my coding process, I&apos;ve integrated
-            GitHub Copilot into my development workflow. Copilot provides
-            intelligent code suggestions and automation, making coding more
-            efficient and helping me deliver high-quality code faster.
+            I&apos;ve integrated GitHub Copilot into my development workflow to
+            streamline and enhance my code. Copilot provides intelligent code
+            suggestions and automation, making coding more efficient and helping
+            me deliver high-quality code faster.
           </dd>
         </dl>
         <p>
