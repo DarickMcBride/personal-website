@@ -72,11 +72,11 @@ export default function Home() {
         <p>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
-          React, Next.js, Tailwind CSS, daisyUI, TypeScript, I&apos;ve created a platform
-          that not only showcases my content effectively but also provides a
-          delightful user experience. I continuously update and optimize my
-          technology stack to ensure that my website remains at the forefront of
-          web development standards.
+          React, Next.js, Tailwind CSS, daisyUI, TypeScript, I&apos;ve created a
+          platform that not only showcases my content effectively but also
+          provides a delightful user experience. I continuously update and
+          optimize my technology stack to ensure that my website remains at the
+          forefront of web development standards.
         </p>
         <p>
           Thank you for visiting my website and for taking an interest in the
@@ -99,10 +99,13 @@ export default function Home() {
             size={32}
           />
         </a>
-        <button className="btn btn-primary hidden sm:flex">
+        <a
+          className="btn btn-primary hidden sm:flex"
+          href="https://github.com/DarickMcBride"
+        >
           GitHub
           <FaGithub className="h-6 w-6" />
-        </button>
+        </a>
       </div>
     </div>
   );
