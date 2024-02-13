@@ -67,7 +67,7 @@ export default function Home() {
             me deliver high-quality code faster.
           </dd>
         </dl>
-        <div className="divider divider-secondary"></div>
+        <div className="divider divider-secondary mx-40"></div>
         <p>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
