@@ -1,3 +1,4 @@
+import { info } from "console";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -24,9 +25,10 @@ const config: Config = {
       {
         light: {
           ...require("daisyui/src/theming/themes")["light"],
-          primary: "rgb(99, 187,242)",
-          secondary: "rgb(131,140,241)",
+          primary: "#2703c7",
+          secondary: "#037fc7",
           accent: "rgb(228,121,178)",
+          info: "#8903c7",
         },
       },
       "night",

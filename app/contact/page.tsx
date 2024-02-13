@@ -2,7 +2,7 @@ import ContactButtons from "../components/ContactButtons";
 
 export default function ContactPage() {
   return (
-    <div className="flex min-h-screen flex-col items-center ">
+    <div className="flex flex-col items-center ">
       <h1 className="text-primary text-2xl p-4 font-bold">CONTACT ME</h1>
       <div>
         <p>
@@ -15,7 +15,7 @@ export default function ContactPage() {
           <dd>
             Feel free to reach out to me via email at{" "}
             <a
-              className="text-info font-semibold"
+              className="text-info "
               href="mailto:contactme@darickmcbride.com"
             >
               contactme@darickmcbride.com
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <dd>
             You can also connect with me on LinkedIn. Visit my LinkedIn profile{" "}
             <a
-              className="text-info font-semibold"
+              className="text-info"
               href="https://www.linkedin.com/in/darickmcbride"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function ContactPage() {
             For a deeper look at my technical skills and projects, visit my
             GitHub profile{" "}
             <a
-              className="text-info font-semibold"
+              className="text-info"
               href="https://github.com/DarickMcBride"
               target="_blank"
               rel="noopener noreferrer"

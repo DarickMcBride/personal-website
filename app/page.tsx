@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center z-10">
+    <div className="flex  flex-col items-center z-10">
       <h1 className={`text-primary text-2xl font-bold p-4 `}>WELCOME</h1>
       <div className="space-y-3">
         <p>
@@ -41,10 +41,11 @@ export default function Home() {
             Tailwind CSS is a utility-first CSS framework that allows for highly
             customizable designs with a low-level, component-friendly approach.
             It promotes consistency, productivity and maintainability across the
-            project. daisyUI is a plugin for Tailwind CSS that provides beautiful
-            UI components, making it easier to build a consistent and visually
-            appealing interface. Together, they offer a powerful combination for
-            creating unique, responsive, and user-friendly designs.
+            project. daisyUI is a plugin for Tailwind CSS that provides
+            beautiful UI components, making it easier to build a consistent and
+            visually appealing interface. Together, they offer a powerful
+            combination for creating unique, responsive, and user-friendly
+            designs.
           </dd>
           <dt className="text-secondary font-semibold text-semibold text-lg">
             TypeScript

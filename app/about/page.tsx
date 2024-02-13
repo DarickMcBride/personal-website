@@ -20,7 +20,7 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center">
+    <div className="flex flex-col items-center">
       <h1 className="text-primary text-2xl p-4 font-bold">ABOUT ME</h1>
       <div>
         <Image

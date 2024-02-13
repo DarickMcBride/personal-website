@@ -23,8 +23,9 @@ export default function RootLayout({
           <AppBar />
 
           <Background />
-          <main className=" flex items-center justify-center backdrop-filter backdrop-blur-lg z-10  ">
-            <div className="max-w-sm mx-8 pt-20 pb-10 sm:max-w-screen-lg">
+
+          <main className=" flex items-center justify-center  overflow-y-auto">
+            <div className="max-w-sm mx-8 pt-20 pb-10 sm:max-w-screen-lg z-10">
               {children}
             </div>
           </main>
