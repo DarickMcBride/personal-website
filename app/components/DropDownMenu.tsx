@@ -33,17 +33,17 @@ export default function DropDownMenu() {
       >
         <li>
           <Link href="/" onClick={handleClick}>
-            Home
+            HOME
           </Link>
         </li>
         <li>
           <Link href="/about" onClick={handleClick}>
-            About Me
+            ABOUT ME
           </Link>
         </li>
         <li>
           <Link href="/contact" onClick={handleClick}>
-            Contact
+            CONTACT
           </Link>
         </li>
       </ul>
