@@ -34,14 +34,14 @@ export default function Home() {
             load times and a better overall user experience.
           </dd>
           <dt className="text-secondary font-semibold text-semibold text-lg">
-            TailwindCSS and DaisyUI
+            Tailwind CSS and daisyUI
           </dt>
           <dd>
-            For styling my website, I&apos;ve chosen TailwindCSS and DaisyUI.
-            TailwindCSS is a utility-first CSS framework that allows for highly
+            For styling my website, I&apos;ve chosen Tailwind CSS and daisyUI.
+            Tailwind CSS is a utility-first CSS framework that allows for highly
             customizable designs with a low-level, component-friendly approach.
             It promotes consistency, productivity and maintainability across the
-            project. DaisyUI is a plugin for TailwindCSS that provides beautiful
+            project. daisyUI is a plugin for Tailwind CSS that provides beautiful
             UI components, making it easier to build a consistent and visually
             appealing interface. Together, they offer a powerful combination for
             creating unique, responsive, and user-friendly designs.
