@@ -1,10 +1,9 @@
 "use client";
-import { useEffect, useState } from "react";
+
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
   const { theme, setTheme, systemTheme } = useTheme();
-  const [themeType, setThemeType] = useState("corporate");
 
   //get the current theme
   const currentTheme = theme === "system" ? systemTheme : theme;
@@ -16,9 +15,7 @@ export default function ThemeToggle() {
         type="checkbox"
         className="theme-controller"
         value={currentTheme}
-        onClick={() =>
-          setTheme(currentTheme === "corporate" ? "night" : "corporate")
-        }
+        onClick={() => setTheme(currentTheme === "light" ? "night" : "light")}
       />
 
       {/* sun icon */}

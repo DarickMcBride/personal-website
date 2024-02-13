@@ -19,15 +19,15 @@ export default function AboutPage() {
 
   return (
     <div className="flex min-h-screen flex-col items-center">
-      <h1 className="text-primary text-2xl p-4">About Me</h1>
+      <h1 className="text-primary text-2xl p-4 font-bold">About Me</h1>
       <div className="space-y-3">
         <p>
           Hello there! My name is{" "}
-          <span className="text-secondary">Darick McBride</span> and I am a
-          passionate Senior Software Developer with over {yearsSince()} years of
-          industry experience. When I&apos;m not knee-deep in code, you can
-          often find me exploring the beauty of nature or spending quality time
-          with my furry friend Pixel.
+          <span className="text-secondary font-semibold">Darick McBride</span>{" "}
+          and I am a passionate Senior Software Developer with over{" "}
+          {yearsSince()} years of industry experience. When I&apos;m not
+          knee-deep in code, you can often find me exploring the beauty of
+          nature or spending quality time with my furry friend Pixel.
         </p>
         <p>
           My journey as a software developer started with a fascination for

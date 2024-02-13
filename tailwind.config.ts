@@ -20,7 +20,17 @@ const config: Config = {
     },
   },
   daisyui: {
-    themes: ["corporate", "night"],
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "rgb(99, 187,242)",
+          secondary: "rgb(131,140,241)",
+          accent: "rgb(228,121,178)",
+        },
+      },
+      "night",
+    ],
   },
   plugins: [require("daisyui")],
 };
