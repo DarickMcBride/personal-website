@@ -25,7 +25,7 @@ export default function AboutPage() {
       <div>
         <Image
           src={myImage}
-          className="mx-auto md:max-w-sm lg:max-w-md rounded-lg shadow-2xl md:float-left mr-4 mb-3"
+          className="mx-auto max-w-xs rounded-lg shadow-2xl md:float-left mr-4 mb-3"
           alt="Picture of Darick McBride"
           width={0}
           height={0}
