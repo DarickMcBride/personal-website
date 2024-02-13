@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AppBar() {
   return (
-    <header className="navbar bg-base-300 fixed top-0 w-full z-50">
+    <header className="navbar bg-base-200 fixed top-0 w-full z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
