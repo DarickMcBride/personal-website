@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center z-10">
-      <h1 className="text-primary text-2xl p-4 font-bold ">Welcome!</h1>
+    <div className="flex min-h-screen flex-col items-center z-10">
+      <h1 className={`text-primary font-text-2xl p-4 font-bold`}>WELCOME</h1>
       <div className="space-y-3">
         <p>
           I firmly believe in leveraging the power of technology to create
@@ -98,11 +97,11 @@ export default function Home() {
             size={32}
           />
         </a>
-        <button className="btn btn-primary hidden sm:flex">
+        <button className="btn btn-primary  hidden sm:flex">
           GitHub
           <FaGithub className="h-6 w-6" />
         </button>
       </div>
-    </main>
+    </div>
   );
 }
