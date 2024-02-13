@@ -72,7 +72,7 @@ export default function Home() {
         <p>
           My technology stack represents my commitment to delivering a
           high-quality, performant, and visually pleasing website. By using
-          React, Next.js, Material UI, TypeScript, I&apos;ve created a platform
+          React, Next.js, Tailwind CSS, daisyUI, TypeScript, I&apos;ve created a platform
           that not only showcases my content effectively but also provides a
           delightful user experience. I continuously update and optimize my
           technology stack to ensure that my website remains at the forefront of
