@@ -1,5 +1,5 @@
 "use client";
-
+import { useEffect } from "react";
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
@@ -7,6 +7,13 @@ export default function ThemeToggle() {
 
   //get the current theme
   const currentTheme = theme === "system" ? systemTheme : theme;
+
+  // set default theme to night
+  useEffect(() => {
+    if (!theme) {
+      setTheme("night");
+    }
+  }, [theme, setTheme]);
 
   return (
     <label className="swap swap-rotate btn btn-circle btn-ghost text-primary">
