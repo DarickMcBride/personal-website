@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme("night");
+  const { theme, setTheme } = useTheme();
 
   // set default theme to night
   useEffect(() => {
