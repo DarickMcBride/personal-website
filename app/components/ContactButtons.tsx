@@ -34,7 +34,9 @@ export default function ContactButtons() {
       </a>
       <Link
         className="btn btn-ghost flex flex-col items-center justify-center "
-        href={"/resume.pdf"}
+        href={
+          "https://docs.google.com/document/d/1Y8AyyMWnrq9JYsG8c-L5VX3O5mKfpw19G8p5QI3vzcY/export?format=pdf"
+        }
         locale={false}
         target="_blank"
         rel="noopener noreferrer"
