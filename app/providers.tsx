@@ -3,5 +3,13 @@
 import { ThemeProvider } from "next-themes";
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  return <ThemeProvider defaultTheme="system">{children}</ThemeProvider>;
+  return (
+    <ThemeProvider
+      themes={["night", "light"]}
+      defaultTheme="night"
+      enableSystem={false}
+    >
+      {children}
+    </ThemeProvider>
+  );
 }
