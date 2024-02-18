@@ -5,7 +5,7 @@ export default function ContactButtons() {
   return (
     <div className="flex justify-center text-primary pt-4 pb-4 ">
       <a
-        className="btn btn-ghost flex flex-col items-center justify-center "
+        className="btn btn-ghost flex flex-col items-center justify-center"
         href="mailto:contactme@darickmcbride.com"
         target="_blank"
         rel="noopener noreferrer"

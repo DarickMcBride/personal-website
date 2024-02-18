@@ -15,7 +15,7 @@ export default function ContactPage() {
           <dd>
             Feel free to reach out to me via email at{" "}
             <a
-              className="text-info "
+              className="text-info hover:underline hover:text-secondary"
               href="mailto:contactme@darickmcbride.com"
             >
               contactme@darickmcbride.com
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <dd>
             You can also connect with me on LinkedIn. Visit my LinkedIn profile{" "}
             <a
-              className="text-info"
+              className="text-info hover:underline hover:text-secondary"
               href="https://www.linkedin.com/in/darickmcbride"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function ContactPage() {
             For a deeper look at my technical skills and projects, visit my
             GitHub profile{" "}
             <a
-              className="text-info"
+              className="text-info hover:underline hover:text-secondary"
               href="https://github.com/DarickMcBride"
               target="_blank"
               rel="noopener noreferrer"
