@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { Providers } from "./providers";
 import AppBar from "./components/AppBar";
@@ -30,6 +30,7 @@ export default function RootLayout({
             </div>
           </main>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );

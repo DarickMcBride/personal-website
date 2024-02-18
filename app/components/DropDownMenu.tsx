@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function DropDownMenu() {
+  const path = usePathname();
   const handleClick = () => {
     const elem = document.activeElement as HTMLElement;
     if (elem) {
@@ -32,17 +34,29 @@ export default function DropDownMenu() {
         className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52"
       >
         <li>
-          <Link href="/" onClick={handleClick}>
+          <Link
+            href="/"
+            onClick={handleClick}
+            className={`${path === "/" && "text-primary"}`}
+          >
             HOME
           </Link>
         </li>
         <li>
-          <Link href="/about" onClick={handleClick}>
+          <Link
+            href="/about"
+            onClick={handleClick}
+            className={`${path === "/about" && "text-primary"}`}
+          >
             ABOUT ME
           </Link>
         </li>
         <li>
-          <Link href="/contact" onClick={handleClick}>
+          <Link
+            href="/contact"
+            onClick={handleClick}
+            className={`${path === "/contact" && "text-primary"}`}
+          >
             CONTACT
           </Link>
         </li>

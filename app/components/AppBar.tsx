@@ -27,21 +27,36 @@ export default function AppBar() {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex ">
-        <ul className="menu menu-horizontal px-1 gap-x-2">
-          <li>
-            <Link href="/" className={path === "/" ? "active" : ""}>
+        <ul className=" menu-horizontal px-1 gap-x-4">
+          <li className="">
+            <Link
+              href="/"
+              className={`active:text-primary border-b-4 border-transparent ${
+                path === "/" &&
+                "!text-primary !border-primary cursor-pointer pb-2"
+              }`}
+            >
               HOME
             </Link>
           </li>
           <li>
-            <Link href="/about" className={path === "/about" ? "active" : ""}>
+            <Link
+              href="/about"
+              className={`active:text-primary border-b-4 border-transparent ${
+                path === "/about" &&
+                "!text-primary !border-primary cursor-pointer pb-2"
+              }`}
+            >
               ABOUT ME
             </Link>
           </li>
           <li>
             <Link
               href="/contact"
-              className={path === "/contact" ? "active" : ""}
+              className={`active:text-primary border-b-4 border-transparent ${
+                path === "/contact" &&
+                "!text-primary !border-primary cursor-pointer pb-2"
+              }`}
             >
               CONTACT
             </Link>
