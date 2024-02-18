@@ -3,10 +3,7 @@ import { useEffect } from "react";
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
-  const { theme, setTheme, systemTheme } = useTheme();
-
-  //get the current theme
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { theme, setTheme } = useTheme("night");
 
   // set default theme to night
   useEffect(() => {
@@ -21,8 +18,8 @@ export default function ThemeToggle() {
       <input
         type="checkbox"
         className="theme-controller"
-        value={currentTheme}
-        onClick={() => setTheme(currentTheme === "light" ? "night" : "light")}
+        value={theme}
+        onClick={() => setTheme(theme === "light" ? "night" : "light")}
       />
 
       {/* sun icon */}
