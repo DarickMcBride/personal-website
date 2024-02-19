@@ -65,9 +65,8 @@ export default function ContactPage() {
         <p className="pt-2">
           I&apos;m looking forward to hearing from you and engaging in
           meaningful conversations. Whether it&apos;s about career
-          opportunities, tech discussions, or just a friendly chat, I&apos;m
-          here to connect. Let&apos;s get in touch and explore the
-          possibilities!
+          opportunities, tech discussions, or just a friendly chat,let&apos;s
+          connect!
         </p>
       </div>
     </div>
