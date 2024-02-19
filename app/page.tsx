@@ -11,7 +11,7 @@ export default function Home() {
           robust and modern technology stack that combines the best tools and
           frameworks to deliver a seamless and visually appealing user
           experience. Here&apos;s a closer look at the technologies I&apos;ve
-          used to craft this site
+          used to craft this site:
         </p>
         <dl className="space-y-2">
           <dt className="text-secondary font-semibold text-lg">React</dt>
