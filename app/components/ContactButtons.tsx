@@ -3,37 +3,37 @@ import Link from "next/link";
 
 export default function ContactButtons() {
   return (
-    <div className="flex justify-center text-primary pt-4 pb-4 ">
+    <div className="flex flex-row justify-center text-primary pt-4 pb-4">
       <a
-        className="btn btn-ghost btn-lg flex flex-col items-center justify-center"
+        className="btn btn-ghost btn-md flex flex-col items-center justify-center"
         href="mailto:contactme@darickmcbride.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaEnvelope size={24} />
-        Email
+        <FaEnvelope size={18} />
+        <p className="text-xs">Email</p>
       </a>
 
       <a
-        className="btn btn-ghost btn-lg flex flex-col items-center justify-center "
+        className="btn btn-ghost btn-md flex flex-col items-center justify-center "
         href="https://www.linkedin.com/in/darickmcbride"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaLinkedin size={24} />
-        LinkedIn
+        <FaLinkedin size={18} />
+        <p className="text-xs">LinkedIn</p>
       </a>
       <a
-        className="btn btn-ghost btn-lg flex flex-col items-center justify-center "
+        className="btn btn-ghost btn-md flex flex-col items-center justify-center "
         href="https://github.com/DarickMcBride"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub size={24} />
-        GitHub
+        <FaGithub size={18} />
+        <p className="text-xs">GitHub</p>
       </a>
       <Link
-        className="btn btn-ghost btn-lg flex flex-col items-center justify-center "
+        className="btn btn-ghost btn-md flex flex-col items-center justify-center "
         href={
           "https://docs.google.com/document/d/1Y8AyyMWnrq9JYsG8c-L5VX3O5mKfpw19G8p5QI3vzcY/export?format=pdf"
         }
@@ -41,8 +41,8 @@ export default function ContactButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaFilePdf size={24} />
-        Resume
+        <FaFilePdf size={18} />
+        <p className="text-xs">Resume</p>
       </Link>
     </div>
   );
