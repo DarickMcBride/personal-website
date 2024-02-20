@@ -27,11 +27,16 @@ const config: Config = {
           ...require("daisyui/src/theming/themes")["light"],
           primary: "#2703c7",
           secondary: "#037fc7",
-          accent: "rgb(228,121,178)",
+          accent: "#BFE7FE",
           info: "#8903c7",
         },
       },
-      "night",
+      {
+        night: {
+          ...require("daisyui/src/theming/themes")["night"],
+          accent: "#BFE7FE",
+        },
+      },
     ],
   },
   plugins: [require("daisyui")],
