@@ -30,7 +30,7 @@ export default function AppBar() {
           <li className="">
             <Link
               href="/"
-              className={`active:text-primary border-b-4 border-transparent ${
+              className={`border-b-4 border-transparent ${
                 path === "/" &&
                 "!text-primary !border-primary cursor-pointer pb-2"
               }`}
@@ -41,7 +41,7 @@ export default function AppBar() {
           <li>
             <Link
               href="/about"
-              className={`active:text-primary border-b-4 border-transparent ${
+              className={`border-b-4 border-transparent ${
                 path === "/about" &&
                 "!text-primary !border-primary cursor-pointer pb-2"
               }`}
@@ -52,7 +52,7 @@ export default function AppBar() {
           <li>
             <Link
               href="/contact"
-              className={`active:text-primary border-b-4 border-transparent ${
+              className={`border-b-4 border-transparent ${
                 path === "/contact" &&
                 "!text-primary !border-primary cursor-pointer pb-2"
               }`}
