@@ -24,7 +24,7 @@ export default function TechCarousel() {
                 complex UI components and manage state efficiently.
               </p>
             </div>
-            <figure className="bg-white py-4 h-full">
+            <figure className="bg-slate-600 opacity-70 py-4 h-full">
               <Image src={reactIcon} alt="React" width={200} height={0} />
             </figure>
           </div>
@@ -43,7 +43,7 @@ export default function TechCarousel() {
                 faster load times and a better overall user experience.
               </p>
             </div>
-            <figure className="bg-white py-4 h-full">
+            <figure className="bg-slate-600 opacity-70 py-4 h-full">
               <Image src={nextIcon} alt="Next.js" width={200} height={0} />
             </figure>
           </div>
@@ -66,7 +66,7 @@ export default function TechCarousel() {
                 creating unique, responsive, and user-friendly designs.
               </p>
             </div>
-            <figure className="bg-white py-4 h-full">
+            <figure className="bg-slate-600 opacity-70 py-4 h-full">
               <Image src={tailwindIcon} alt="Tailwind" width={300} height={0} />
             </figure>
           </div>
@@ -86,7 +86,7 @@ export default function TechCarousel() {
                 readable, and reliable.
               </p>
             </div>
-            <figure className="bg-white py-4 h-full">
+            <figure className="bg-slate-600 opacity-70 py-4 h-full">
               <Image
                 src={typescriptIcon}
                 alt="TypeScript"
@@ -103,14 +103,13 @@ export default function TechCarousel() {
                 GitHub Copilot
               </h2>
               <p className="text-base-content">
-
                 I&apos;ve integrated GitHub Copilot into my development workflow
                 to streamline and enhance my code. Copilot provides intelligent
                 code suggestions and automation, making coding more efficient
                 and helping me deliver high-quality code faster.
               </p>
             </div>
-            <figure className="bg-white py-4 h-full">
+            <figure className="bg-slate-600 opacity-70 py-4 h-full">
               <Image src={copilotIcon} alt="Copilot" width={100} height={0} />
             </figure>
           </div>

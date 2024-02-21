@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import TechCarousel from "./components/TechCarousel";
+import TechMobile from "./components/TechMobile";
 
 export default function Home() {
   return (
@@ -14,8 +15,11 @@ export default function Home() {
           experience. Here&apos;s a closer look at the technologies I&apos;ve
           used to craft this site:
         </p>
-        <div className="flex justify-center">
+        <div className="justify-center hidden sm:flex">
           <TechCarousel />
+        </div>
+        <div className=" sm:hidden">
+          <TechMobile />
         </div>
 
         <p>
