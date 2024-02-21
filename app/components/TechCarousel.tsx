@@ -1,8 +1,8 @@
 export default function TechCarousel() {
   return (
-    <div className="carousel carousel-center w-96">
+    <div className="carousel carousel-center w-96 sm:min-w-full">
       <div id="item1" className="carousel-item w-full">
-        <div className="card bg-accent bg-opacity-40 h-auto px-12">
+        <div className="card bg-accent bg-opacity-60 px-12">
           <div className="card-body">
             <h2 className="card-title text-secondary font-semibold">React</h2>
             <p className="text-base-content">
@@ -25,7 +25,7 @@ export default function TechCarousel() {
         </div>
       </div>
       <div id="item2" className="carousel-item w-full">
-        <div className="card bg-accent bg-opacity-40 h-auto px-12">
+        <div className="card bg-accent bg-opacity-40 px-12">
           <div className="card-body">
             <h2 className="card-title text-secondary font-semibold">
               Next.js (App Router)
@@ -49,7 +49,7 @@ export default function TechCarousel() {
         </div>
       </div>
       <div id="item3" className="carousel-item w-full">
-        <div className="card bg-accent bg-opacity-40 h-auto px-12">
+        <div className="card bg-accent bg-opacity-40 px-12">
           <div className="card-body">
             <h2 className="card-title text-secondary font-semibold">
               Tailwind CSS and daisyUI
@@ -77,7 +77,7 @@ export default function TechCarousel() {
         </div>
       </div>
       <div id="item4" className="carousel-item w-full">
-        <div className="card bg-accent bg-opacity-40 h-auto px-12">
+        <div className="card bg-accent bg-opacity-40 px-12">
           <div className="card-body">
             <h2 className="card-title text-secondary font-semibold">
               TypeScript
@@ -105,7 +105,7 @@ export default function TechCarousel() {
             id="item5"
             className="carousel-item w-full"
           >
-            <div className="card bg-accent bg-opacity-40 shadow-xl h-auto px-12">
+            <div className="card bg-accent bg-opacity-40  px-12">
               <div className="card-body">
                 <h2 className="card-title text-secondary font-semibold">
                   GitHub Copilot

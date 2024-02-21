@@ -34,7 +34,7 @@ const config: Config = {
       {
         night: {
           ...require("daisyui/src/theming/themes")["night"],
-          accent: "#BFE7FE",
+          accent: "#121212",
         },
       },
     ],
