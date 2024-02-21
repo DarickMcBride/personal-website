@@ -25,7 +25,7 @@ export default function RootLayout({
           <Background />
 
           <main className=" flex items-center justify-center overflow-y-auto">
-            <div className="max-w-sm mx-8 pt-20 pb-10 sm:max-w-screen-lg z-10">
+            <div className="max-w-sm mx-10 pt-20 pb-10 sm:max-w-screen-2xl z-10">
               {children}
             </div>
           </main>

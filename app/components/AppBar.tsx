@@ -46,7 +46,18 @@ export default function AppBar() {
                 "!text-primary !border-primary cursor-pointer pb-2"
               }`}
             >
-              ABOUT ME
+              ABOUT
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/portfolio"
+              className={`border-b-4 border-transparent ${
+                path === "/portfolio" &&
+                "!text-primary !border-primary cursor-pointer pb-2"
+              }`}
+            >
+              PORTFOLIO
             </Link>
           </li>
           <li>
