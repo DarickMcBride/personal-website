@@ -103,7 +103,7 @@ export default function TechCarousel() {
                 GitHub Copilot
               </h2>
               <p className="text-base-content">
-                At the heart of my website is React, a popular JavaScript
+
                 I&apos;ve integrated GitHub Copilot into my development workflow
                 to streamline and enhance my code. Copilot provides intelligent
                 code suggestions and automation, making coding more efficient
