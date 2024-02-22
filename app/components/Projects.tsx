@@ -1,41 +1,37 @@
-import amysSite from "../../public/amys-site.png";
 import ProjectCard from "./ProjectCard";
+
+import amysSite from "../../public/amys-site.png";
+import imdbClone from "../../public/imdb.png";
+import googleClone from "../../public/pixel.png";
 
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "This is project 1",
-    imageUrl: amysSite,
-    projectUrl: "https://www.amymcbride.com/",
+    title: "Google Clone",
+    description: "A fun application to that is a clone Google's search.",
+    imageUrl: googleClone,
+    projectUrl: "https://pixel-google-clone.vercel.app",
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "This is project 2",
-    imageUrl: amysSite,
-    projectUrl: "url-to-project-2",
+    title: "IMDB Clone",
+    description: "An example project that uses IMDB's API to display movies.",
+    imageUrl: imdbClone,
+    projectUrl: "https://imdb-next-pi.vercel.app",
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "This is project 3",
+    title: "Professional Personal Site",
+    description:
+      "A professional site for a professional professional engineer.",
     imageUrl: amysSite,
-    projectUrl: "url-to-project-2",
+    projectUrl: "https://www.amymcbride.com/",
   },
-  {
-    id: 4,
-    title: "Project 4",
-    description: "This is project 4",
-    imageUrl: amysSite,
-    projectUrl: "url-to-project-2",
-  },
-  // add more projects here
 ];
 
 export default function Projects() {
   return (
-    <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4   mx-auto py-4">
+    <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto py-4">
       {projects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}
