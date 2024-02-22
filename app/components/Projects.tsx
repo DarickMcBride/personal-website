@@ -33,7 +33,9 @@ export default function Projects() {
   return (
     <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto py-4">
       {projects.map((project) => (
-        <ProjectCard key={project.id} project={project} />
+        <div key={project.id} className="py-2">
+          <ProjectCard project={project} />
+        </div>
       ))}
     </div>
   );
