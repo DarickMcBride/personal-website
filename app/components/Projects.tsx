@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: "Professional Personal Site",
     description:
-      "A professional site for a professional professional engineer.",
+      "A professional site for an engineer.",
     imageUrl: amysSite,
     projectUrl: "https://www.amymcbride.com/",
   },
