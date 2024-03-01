@@ -5,13 +5,11 @@ This is my personal portfolio website built using [Next.js 14](https://nextjs.or
 ## Getting Started
 
 First, clone the repository:
-
 ```bash
 git clone [your-repo-link]
 ```
 
 Then, install the dependencies:
-
 ```bash
 npm install
 # or
@@ -27,15 +25,15 @@ yarn dev
 
 Open http://localhost:3000 with your browser to see the result.
 
-###Features
+### Features
 Responsive design
 Dynamic routing
 Server-side rendering
 
-###Built With
+### Built With
 Next.js 14
 React
 TypeScript
 
-###Deployment
+### Deployment
 This website is deployed on Vercel. You can view the live site [here](https://darickmcbride.com).
