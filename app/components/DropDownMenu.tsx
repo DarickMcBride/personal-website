@@ -51,7 +51,7 @@ export default function DropDownMenu() {
             ABOUT
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             href="/portfolio"
             onClick={handleClick}
@@ -59,7 +59,7 @@ export default function DropDownMenu() {
           >
             PORTFOLIO
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href="/contact"
