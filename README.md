@@ -26,14 +26,14 @@ yarn dev
 Open http://localhost:3000 with your browser to see the result.
 
 ### Features
-Responsive design
-Dynamic routing
-Server-side rendering
+- Responsive design
+- Dynamic routing
+- Server-side rendering
 
 ### Built With
-Next.js 14
-React
-TypeScript
+- Next.js 14
+- React
+- TypeScript
 
 ### Deployment
 This website is deployed on Vercel. You can view the live site [here](https://darickmcbride.com).
