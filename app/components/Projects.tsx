@@ -10,22 +10,21 @@ const projects = [
     title: "Google Clone",
     description: "A fun application to that is a clone Google's search.",
     imageUrl: googleClone,
-    projectUrl: "https://pixel-google-clone.vercel.app",
+    projectUrl: "https://github.com/DarickMcBride/google-clone",
   },
   {
     id: 2,
     title: "IMDB Clone",
     description: "An example project that uses IMDB's API to display movies.",
     imageUrl: imdbClone,
-    projectUrl: "https://imdb-next-pi.vercel.app",
+    projectUrl: "https://github.com/DarickMcBride/imdb-next",
   },
   {
     id: 3,
     title: "Professional Personal Site",
-    description:
-      "A professional site for an engineer.",
+    description: "A professional site for an engineer.",
     imageUrl: amysSite,
-    projectUrl: "https://www.amymcbride.com/",
+    projectUrl: "https://github.com/DarickMcBride/amys-personal-website",
   },
 ];
 
