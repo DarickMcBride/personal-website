@@ -49,7 +49,7 @@ export default function AppBar() {
               ABOUT
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/portfolio"
               className={`border-b-4 border-transparent ${
@@ -59,7 +59,7 @@ export default function AppBar() {
             >
               PORTFOLIO
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/contact"
