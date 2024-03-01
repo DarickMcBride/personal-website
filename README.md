@@ -1,4 +1,4 @@
-# [Your Name] Portfolio Website
+# Darick McBride's Portfolio Website
 
 This is my personal portfolio website built using [Next.js 14](https://nextjs.org/).
 
