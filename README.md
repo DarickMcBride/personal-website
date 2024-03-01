@@ -6,7 +6,7 @@ This is my personal portfolio website built using [Next.js 14](https://nextjs.or
 
 First, clone the repository:
 ```bash
-git clone [https://github.com/DarickMcBride/personal-website.git]
+git clone https://github.com/DarickMcBride/personal-website.git
 ```
 
 Then, install the dependencies:
