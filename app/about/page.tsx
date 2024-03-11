@@ -21,7 +21,9 @@ export default function AboutPage() {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-primary text-2xl p-4 font-bold">ABOUT ME</h1>
+      <h1 className="text-primary p-4 text-6xl font-extrabold">
+        ABOUT ME
+      </h1>
       <div>
         <Image
           src={myImage}

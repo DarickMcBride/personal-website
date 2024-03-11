@@ -5,7 +5,7 @@ import TechMobile from "./components/TechMobile";
 export default function Home() {
   return (
     <div className="flex flex-col items-center z-10">
-      <h1 className={`text-primary text-2xl font-bold p-4`}>WELCOME</h1>
+      <h1 className={`text-primary text-6xl font-extrabold p-4`}>WELCOME</h1>
       <div className="space-y-3">
         <p>
           I firmly believe in leveraging the power of technology to create
