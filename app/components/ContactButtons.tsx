@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ContactButtons() {
   return (
-    <div className="flex flex-row justify-center text-primary pt-4 pb-4">
+    <div className="flex flex-row justify-center text-primary pt-4 pb-4 space-">
       <a
         className="btn btn-ghost btn-md flex flex-col items-center justify-center"
         href="mailto:contactme@darickmcbride.com"

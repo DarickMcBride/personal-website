@@ -1,6 +1,6 @@
 export default function SkillsList() {
   return (
-    <ul className="list-disc list-inside">
+    <ul className="list-disc list-inside space-y-4">
       <li>
         <span className="text-secondary font-semibold">React:</span> Proficient
         in building interactive and responsive web applications using React.
