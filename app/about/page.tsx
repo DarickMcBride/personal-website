@@ -21,7 +21,7 @@ export default function AboutPage() {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-primary p-4 text-6xl font-extrabold">
+      <h1 className="text-primary p-4 text-4xl md:text-6xl font-extrabold">
         ABOUT ME
       </h1>
       <div>

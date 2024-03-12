@@ -5,7 +5,9 @@ import TechMobile from "./components/TechMobile";
 export default function Home() {
   return (
     <div className="flex flex-col items-center z-10">
-      <h1 className={`text-primary text-6xl font-extrabold p-4`}>WELCOME</h1>
+      <h1 className={`text-primary text-4xl md:text-6xl font-extrabold p-4`}>
+        WELCOME
+      </h1>
       <div className="space-y-3">
         <p>
           I firmly believe in leveraging the power of technology to create
@@ -41,24 +43,27 @@ export default function Home() {
         </p>
       </div>
       <div className="text-center py-4">
-        <a
-          className="sm:hidden"
-          href="https://github.com/DarickMcBride"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub
-            className="btn btn-circle btn-ghost text-primary"
-            size={32}
-          />
-        </a>
-        <a
-          className="btn btn-primary hidden sm:flex"
-          href="https://github.com/DarickMcBride"
-        >
-          GitHub
-          <FaGithub className="h-6 w-6" />
-        </a>
+        <div className="tooltip" data-tip="Visit my GitHub profile">
+          <a
+            className="sm:hidden"
+            href="https://github.com/DarickMcBride"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub
+              className="btn btn-circle btn-ghost text-primary"
+              size={32}
+            />
+          </a>
+
+          <a
+            className="btn btn-primary hidden sm:flex"
+            href="https://github.com/DarickMcBride"
+          >
+            GitHub
+            <FaGithub className="h-6 w-6" />
+          </a>
+        </div>
       </div>
     </div>
   );
