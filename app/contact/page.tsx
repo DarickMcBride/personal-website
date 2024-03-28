@@ -30,7 +30,7 @@ export default function ContactPage() {
             </dd>
           </div>
           <div>
-            <dt className="text-secondary font-semibold text-lg">Linkedin:</dt>
+            <dt className="text-secondary font-semibold text-lg">LinkedIn:</dt>
             <dd>
               You can also connect with me on LinkedIn. Visit my LinkedIn
               profile{" "}

@@ -1,30 +1,30 @@
 import ProjectCard from "./ProjectCard";
 
-import amysSite from "../../public/amys-site.png";
+import triviaPic from "../../public/trivia-site.png";
 import imdbClone from "../../public/imdb.png";
 import googleClone from "../../public/pixel.png";
 
 const projects = [
   {
     id: 1,
+    title: "Trivia Game",
+    description: "A trivia game that uses the Open Trivia Database API.",
+    imageUrl: triviaPic,
+    projectUrl: "https://trivia-app-mauve-six.vercel.app",
+  },
+  {
+    id: 2,
     title: "Google Clone",
-    description: "A fun application to that is a clone Google's search.",
+    description: "A fun application to that is a clone of Google's search.",
     imageUrl: googleClone,
     projectUrl: "https://github.com/DarickMcBride/google-clone",
   },
   {
-    id: 2,
+    id: 3,
     title: "IMDB Clone",
-    description: "An example project that uses IMDB's API to display movies.",
+    description: "A project that uses IMDB's API to display movies.",
     imageUrl: imdbClone,
     projectUrl: "https://github.com/DarickMcBride/imdb-next",
-  },
-  {
-    id: 3,
-    title: "Professional Personal Site",
-    description: "A professional site for an engineer.",
-    imageUrl: amysSite,
-    projectUrl: "https://github.com/DarickMcBride/amys-personal-website",
   },
 ];
 
