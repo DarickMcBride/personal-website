@@ -36,7 +36,7 @@ export default function AboutPage() {
           <p>
             Hello there! My name is{" "}
             <span className="text-secondary font-semibold">Darick McBride</span>{" "}
-            and I am a passionate Senior Software Developer with over{" "}
+            and I am a passionate Software Developer with over{" "}
             {yearsSince()} years of industry experience. When I&apos;m not
             knee-deep in code, you can often find me exploring the beauty of
             nature or spending quality time with my furry friend Pixel.
