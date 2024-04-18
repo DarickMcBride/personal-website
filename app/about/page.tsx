@@ -36,10 +36,10 @@ export default function AboutPage() {
           <p>
             Hello there! My name is{" "}
             <span className="text-secondary font-semibold">Darick McBride</span>{" "}
-            and I am a passionate Software Developer with over{" "}
-            {yearsSince()} years of industry experience. When I&apos;m not
-            knee-deep in code, you can often find me exploring the beauty of
-            nature or spending quality time with my furry friend Pixel.
+            and I am a passionate Software Developer with over {yearsSince()}{" "}
+            years of industry experience. When I&apos;m not knee-deep in code,
+            you can often find me exploring the beauty of nature or spending
+            quality time with my furry friend Pixel.
           </p>
           <p>
             My journey as a software developer started with a fascination for
@@ -64,6 +64,20 @@ export default function AboutPage() {
             led me to appreciate loyalty, dedication, and the importance of a
             strong support system, values that I also bring to my work as a
             developer.
+          </p>
+          <p>
+            I am also the founder and organizer of a Sacramento based meetup
+            called{" "}
+            <a
+              className="text-secondary font-semibold hover:underline"
+              href="https://www.meetup.com/tech-code-collective-sacramento-folsom-roseville/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tech and Code Collective
+            </a>
+            . This meetup is a place for developers to come together, socialize,
+            network and share ideas.
           </p>
           <p>
             I&apos;m excited to share my journey, my work, and my enthusiasm for
