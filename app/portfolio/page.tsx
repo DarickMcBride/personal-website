@@ -14,6 +14,7 @@ export default function PortfolioPage() {
         technical skills, but also my ability to solve problems, think
         critically, and learn new technologies.
       </p>
+      <br />
       <p className="text-lg  text-base-content">
         Feel free to explore and engage with my work. Each project is a
         testament to my growth and dedication in the realm of web development. I
