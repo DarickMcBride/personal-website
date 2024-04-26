@@ -88,8 +88,8 @@ export default function AboutPage() {
             love for dogs and the great outdoors, I&apos;m always open to
             connecting, sharing ideas, and embarking on new adventures.
           </p>
-          <p> Here are some of the skills I&apos;ve acquired over the years:</p>
-          <SkillsList />
+          {/* <p> Here are some of the skills I&apos;ve acquired over the years:</p>
+          <SkillsList /> */}
           <p>
             Thank you for visiting my website. Feel free to reach out, and
             let&apos;s explore the limitless possibilities of software

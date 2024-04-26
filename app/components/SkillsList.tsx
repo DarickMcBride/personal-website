@@ -23,7 +23,7 @@ export default function SkillsList() {
         in version control and collaboration using Git.
       </li>
       <li>
-        <span className="text-secondary font-semibold">C#:</span> Skilled in C#
+        <span className="text-secondary font-semibold">Node.js:</span> Skilled in C#
         programming for back end web development.
       </li>
       <li>
