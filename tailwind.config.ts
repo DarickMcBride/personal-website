@@ -23,18 +23,10 @@ const config: Config = {
   daisyui: {
     themes: [
       {
-        light: {
-          ...require("daisyui/src/theming/themes")["light"],
-          primary: "#2703c7",
-          secondary: "#037fc7",
-          accent: "#BFE7FE",
-          info: "#8903c7",
-        },
-      },
-      {
         night: {
           ...require("daisyui/src/theming/themes")["night"],
           accent: "#121212",
+          "base-content": "#9ca3af",
         },
       },
     ],

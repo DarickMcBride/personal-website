@@ -1,4 +1,4 @@
-import ContactButtons from "../components/ContactButtons";
+import ContactButtons from "../components/archive/ContactButtons";
 
 export default function ContactPage() {
   return (

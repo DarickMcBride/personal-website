@@ -73,9 +73,6 @@ export default function AppBar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <ThemeToggle />
-      </div>
     </header>
   );
 }

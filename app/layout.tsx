@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Providers } from "./providers";
-import AppBar from "./components/AppBar";
+import AppBar from "./components/archive/AppBar";
 import Background from "./components/Background";
 
 export const metadata: Metadata = {
@@ -20,14 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <AppBar />
-
           <Background />
 
-          <main className=" flex items-center justify-center overflow-y-auto">
-            <div className="mx-6 sm:mx-10 pt-20 pb-10 sm:max-w-screen-2xl z-10">
-              {children}
-            </div>
+          <main className=" flex justify-center overflow-y-auto">
+            {children}
           </main>
         </Providers>
       </body>
