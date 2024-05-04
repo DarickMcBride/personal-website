@@ -17,14 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body>
         <Providers>
           <Background />
 
-          <main className=" flex justify-center overflow-y-auto">
-            {children}
-          </main>
+          <main className="inset-0 absolute">{children}</main>
         </Providers>
       </body>
     </html>

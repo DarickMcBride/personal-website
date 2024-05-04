@@ -1,29 +1,39 @@
-import { FaGithub } from "react-icons/fa";
-import TechCarousel from "./components/archive/TechCarousel";
-import TechMobile from "./components/archive/TechMobile";
 import Heading from "./components/Heading";
 import Summary from "./components/Summary";
 import ContactButtons from "./components/ContactButtons";
 import Timeline from "./components/Timeline";
 
+import Projects from "./components/Projects";
+
 export default function Home() {
   return (
-    <div className="mx-6 sm:mx-10 pt-20 pb-10 sm:w-5/12 z-10 flex flex-row border-2 border-white h-screen">
-      <div className="flex flex-col min-w-96 mr-4 w-1/2 justify-between">
-        <div>
+    <div className=" mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div className="lg:flex lg:flex-row lg:justify-between lg:gap-4">
+        <header className="lg:flex lg:sticky lg:top-0  lg:max-h-screen lg:flex-col lg:justify-between lg:py-24">
           <Heading />
-        </div>
-        <div className="">
           <ContactButtons />
-        </div>
-      </div>
-      <div className="flex flex-col overflow-y-auto scrollbar-hide">
-        <div className="mb-28 ">
-          <Summary />
-        </div>
-        <div className="max-w-lg ">
-          <Timeline />
-        </div>
+        </header>
+
+        <main className="pt-24 lg:w-1/2 lg:py-24">
+          <section
+            id="about"
+            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-26 lg:scroll-mt-24"
+          >
+            <Summary />
+          </section>
+          <section
+            id="experience"
+            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-26 lg:scroll-mt-24"
+          >
+            <Timeline />
+          </section>
+          <section
+            id="projects"
+            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-26 lg:scroll-mt-24"
+          >
+            <Projects />
+          </section>
+        </main>
       </div>
     </div>
   );
