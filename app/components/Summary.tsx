@@ -18,9 +18,9 @@ export default function Summary() {
   return (
     <div className="space-y-3 text-base-content">
       <p>
-        As a seasoned{" "}
+        I am a{" "}
         <span className="font-semibold text-primary">Software Engineer</span>{" "}
-        with {yearsSince()}+ years of industry experience, I&apos;m driven by
+        with {yearsSince()}+ years of industry experience. I&apos;m driven by
         the challenge of transforming code into user-centric solutions. My
         expertise is in{" "}
         <span className="font-semibold text-primary">full-stack React</span>{" "}
