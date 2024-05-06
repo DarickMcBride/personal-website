@@ -13,7 +13,7 @@ interface Project {
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <a href={project.projectUrl} target="_blank" rel="noreferrer noopener">
-      <div className="card lg:card-side  bg-none hover:bg-gray-700 hover:bg-opacity-40 max-w-lg">
+      <div className="card lg:card-side  bg-base-300 bg-opacity-40 hover:bg-gray-700 hover:bg-opacity-40 hover:shadow-sm hover:shadow-slate-600 max-w-lg">
         <figure>
           <Image src={project.imageUrl} alt={project.title} className="size-full lg:w-96" />
         </figure>
