@@ -2,9 +2,9 @@ import Heading from "./components/Heading";
 import Summary from "./components/Summary";
 import ContactButtons from "./components/ContactButtons";
 import Timeline from "./components/Timeline";
+import Footer from "./components/Footer";
 
 import Projects from "./components/Projects";
-
 
 export default function Home() {
   const sections = [
@@ -45,6 +45,9 @@ export default function Home() {
               </section>
             </>
           ))}
+          <footer>
+            <Footer />
+          </footer>
         </main>
       </div>
     </div>
