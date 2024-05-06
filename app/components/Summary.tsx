@@ -34,7 +34,7 @@ export default function Summary() {
         Pixel. These adventures reinforce the values of loyalty and support that
         I infuse into my professional life. I also lead the{" "}
         <a
-          className="text-primary font-semibold hover:underline"
+          className="text-primary font-semibold hover:underline hover:text-secondary"
           href="https://www.meetup.com/tech-code-collective-sacramento-folsom-roseville/"
           target="_blank"
           rel="noopener noreferrer"

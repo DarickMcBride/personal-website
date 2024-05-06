@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <div className="">
       {projects.map((project) => (
-        <div key={project.id} className="py-2">
+        <div key={project.id} className="flex justify-center py-2">
           <ProjectCard project={project} />
         </div>
       ))}

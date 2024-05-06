@@ -13,9 +13,9 @@ interface Project {
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <a href={project.projectUrl} target="_blank" rel="noreferrer noopener">
-      <div className="card card-side p-4 bg-none hover:bg-gray-700 hover:bg-opacity-40 hover:shadow-lg">
+      <div className="card lg:card-side  bg-none hover:bg-gray-700 hover:bg-opacity-40 max-w-lg">
         <figure>
-          <Image src={project.imageUrl} alt={project.title} className="w-36" />
+          <Image src={project.imageUrl} alt={project.title} className="size-full lg:w-96" />
         </figure>
         <div className="card-body">
           <h2 className="card-title text-primary">{project.title}</h2>
