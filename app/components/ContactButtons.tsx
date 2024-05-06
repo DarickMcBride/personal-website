@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ContactButtons() {
   return (
-    <div className="space-x-4">
+    <div className="space-x-4 pt-7">
       <div className="tooltip" data-tip="Email me">
         <a
           href="mailto:contactme@darickmcbride.com"

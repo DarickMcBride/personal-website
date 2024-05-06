@@ -17,12 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth scrollbar-hide">
       <body>
         <Providers>
           <Background />
 
-          <main className="inset-0 absolute">{children}</main>
+          <main className="inset-0 absolute ">{children}</main>
         </Providers>
       </body>
     </html>

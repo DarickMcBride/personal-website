@@ -4,7 +4,7 @@ export default function Background() {
   return (
     <>
       <div
-        className="fixed h-full w-full top-16 left-1/2 
+        className="fixed h-full w-full top-5 left-1/2 
     transform -translate-x-1/2 z-negative opacity-30 px-4"
       >
         <Image

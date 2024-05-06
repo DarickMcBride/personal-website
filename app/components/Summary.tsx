@@ -18,63 +18,35 @@ export default function Summary() {
   return (
     <div className="max-w-lg space-y-3 text-base-content">
       <p>
-        Hello there! My name is{" "}
-        <span className="text-secondary font-semibold">Darick McBride</span> and
-        I am a passionate Software Developer with over {yearsSince()} years of
-        industry experience. When I&apos;m not knee-deep in code, you can often
-        find me exploring the beauty of nature or spending quality time with my
-        furry friend Pixel.
+        As a seasoned{" "}
+        <span className="text-secondary font-semibold">Software Engineer</span>{" "}
+        with {yearsSince()}+ years of industry experience, I&apos;m driven by
+        the challenge of transforming code into user-centric solutions. My
+        expertise lies in{" "}
+        <span className="text-secondary font-semibold">React</span>, which has
+        been a game-changer in crafting interactive web experiences. Beyond
+        coding, nature is my muse, inspiring me to create software that is not
+        only functional but also harmonious and sustainable.
       </p>
       <p>
-        My journey as a software developer started with a fascination for
-        turning lines of code into functional and user-friendly applications.
-        Over the years, I&apos;ve honed my skills and developed a profound
-        expertise in React, a technology that has revolutionized web development
-        and created endless possibilities for building interactive, dynamic, and
-        engaging web applications.
-      </p>
-      <p>
-        I believe that inspiration often strikes when surrounded by the beauty
-        of nature, whether it&apos;s hiking through scenic trails or taking a
-        moment to soak in the serenity of a campsite. This connection with the
-        natural world fuels my creativity and keeps me motivated to craft
-        elegant, efficient, and sustainable software solutions.
-      </p>
-      <p>
-        When I&apos;m not in front of my computer screen, you&apos;ll likely
-        find me on a hiking trail, capturing breathtaking landscapes with my
-        camera, or simply unwinding with my pupper. My passion for dogs has led
-        me to appreciate loyalty, dedication, and the importance of a strong
-        support system, values that I also bring to my work as a developer.
-      </p>
-      <p>
-        I am also the founder and organizer of a Sacramento based meetup called{" "}
+        Away from the keyboard, I&apos;m an avid hiker and dog lover, finding
+        joy and inspiration in the great outdoors with my loyal companion,
+        Pixel. These adventures reinforce the values of loyalty and support that
+        I infuse into my professional life. I also lead the{" "}
         <a
           className="text-secondary font-semibold hover:underline"
           href="https://www.meetup.com/tech-code-collective-sacramento-folsom-roseville/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tech and Code Collective
-        </a>
-        . This meetup is a place for developers to come together, socialize,
-        network and share ideas.
+          Tech && Code Collective
+        </a>{" "}
+        meetup in Sacramento, fostering a community where developers can
+        exchange ideas and grow.
       </p>
       <p>
-        I&apos;m excited to share my journey, my work, and my enthusiasm for
-        coding on this website. Here, you&apos;ll get a glimpse of my projects,
-        explore my website I&apos;ve built, and get a sense of the skills and
-        dedication I bring to every endeavor. Whether you&apos;re a fellow
-        developer, a future employer, or just someone who shares a love for dogs
-        and the great outdoors, I&apos;m always open to connecting, sharing
-        ideas, and embarking on new adventures.
-      </p>
-      {/* <p> Here are some of the skills I&apos;ve acquired over the years:</p>
-          <SkillsList /> */}
-      <p>
-        Thank you for visiting my website. Feel free to reach out, and
-        let&apos;s explore the limitless possibilities of software development
-        and the world beyond our screens together.
+        This website is a window into my professional journey, showcasing my
+        projects and the passion I bring to each one.
       </p>
     </div>
   );

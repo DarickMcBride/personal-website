@@ -30,9 +30,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto py-4">
+    <div className="flex flex-col">
       {projects.map((project) => (
-        <div key={project.id} className="py-2">
+        <div key={project.id} className="">
           <ProjectCard project={project} />
         </div>
       ))}
