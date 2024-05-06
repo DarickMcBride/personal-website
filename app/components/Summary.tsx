@@ -16,20 +16,20 @@ export default function Summary() {
   };
 
   return (
-    <div className="max-w-lg space-y-3 text-base-content">
+    <div className="space-y-3 text-base-content">
       <p>
         As a seasoned{" "}
         <span className="text-primary font-semibold">Software Engineer</span>{" "}
         with {yearsSince()}+ years of industry experience, I&apos;m driven by
         the challenge of transforming code into user-centric solutions. My
-        expertise lies in{" "}
-        <span className="text-primary font-semibold">React</span>, which has
+        expertise is in{" "}
+        <span className="text-primary font-semibold">full-stack React</span> apps, which has
         been a game-changer in crafting interactive web experiences. Beyond
         coding, nature is my muse, inspiring me to create software that is not
         only functional but also harmonious and sustainable.
       </p>
       <p>
-        Away from the keyboard, I&apos;m an avid hiker and dog lover, finding
+        Away from the keyboard, I&apos;m an avid camper and dog lover, finding
         joy and inspiration in the great outdoors with my loyal companion,
         Pixel. These adventures reinforce the values of loyalty and support that
         I infuse into my professional life. I also lead the{" "}

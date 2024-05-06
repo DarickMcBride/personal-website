@@ -4,20 +4,20 @@ import ContactButtons from "./components/ContactButtons";
 import Timeline from "./components/Timeline";
 
 import Projects from "./components/Projects";
-import { Component } from "react";
+
 
 export default function Home() {
   const sections = [
-    { id: "about", name: "About", path: "#about", Component: Summary },
+    { id: "about", name: "ABOUT", path: "#about", Component: Summary },
     {
       id: "experience",
-      name: "Experience",
+      name: "EXPERIENCE",
       path: "#experience",
       Component: Timeline,
     },
     {
       id: "projects",
-      name: "Projects",
+      name: "PROJECTS",
       path: "#projects",
       Component: Projects,
     },
@@ -31,12 +31,12 @@ export default function Home() {
           <ContactButtons />
         </header>
 
-        <main className="pt-24 lg:w-1/2 lg:py-24 ">
+        <main className="pt-24 lg:w-1/2 lg:py-24">
           {sections.map((section) => (
             <>
-              <div className="text-white sticky top-0 py-5 md:hidden">
+              <h2 className="text-white py-5 md:hidden tracking-wider">
                 {section.name}
-              </div>
+              </h2>
               <section
                 id={section.id}
                 className="mb-16 scroll-mt-16 md:mb-24 lg:mb-26 lg:scroll-mt-24"

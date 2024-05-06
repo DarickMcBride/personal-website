@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-
 import "./globals.css";
 import { Providers } from "./providers";
-import AppBar from "./components/archive/AppBar";
 import Background from "./components/Background";
 
 export const metadata: Metadata = {
