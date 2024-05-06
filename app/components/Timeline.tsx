@@ -108,7 +108,7 @@ export default function Timeline() {
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
           Gained experience in building real world software to solve business
           needs.
-          <div>
+          <div className="mt-2">
             <div className="badge badge-secondary badge-outline">VB</div>
           </div>
         </div>
