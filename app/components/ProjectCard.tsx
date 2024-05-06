@@ -8,6 +8,7 @@ interface Project {
   description: string;
   imageUrl: StaticImageData;
   projectUrl: string;
+  chips: string[];
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -24,6 +25,13 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="card-body">
           <h2 className="card-title text-primary">{project.title}</h2>
           <p>{project.description}</p>
+          <div className="flex flex-wrap gap-2">
+            {project.chips.map((chip, i) => (
+              <div key={i} className="badge badge-secondary badge-outline">
+                {chip}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </a>

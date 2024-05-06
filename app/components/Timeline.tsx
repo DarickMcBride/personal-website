@@ -26,7 +26,23 @@ export default function Timeline() {
           Lead the selection of technologies and architecture for new projects.
           Mentor junior developers and provide code reviews. Collaborate with
           stakeholder to meet their needs.
+          <div className="mt-2 flex flex-wrap gap-2">
+            {[
+              "React",
+              "JavaScript",
+              "TypeScript",
+              "MUI",
+              "Vite",
+              "C#",
+              "Python",
+            ].map((chip, i) => (
+              <div key={i} className="badge badge-secondary badge-outline">
+                {chip}
+              </div>
+            ))}
+          </div>
         </div>
+
         <hr />
       </li>
 
@@ -52,6 +68,20 @@ export default function Timeline() {
           </div>
           <div className="text-md font-semibold text-white">UC Davis</div>
           Received a Bachelor of Science in Computer Science.
+          <div className="mt-2 flex flex-wrap gap-2">
+            {[
+              "C++",
+              "JavaScript",
+              "Functional Programming",
+              "DSA",
+              "Networking",
+              "Discreet Math",
+            ].map((chip, i) => (
+              <div key={i} className="badge badge-secondary badge-outline">
+                {chip}
+              </div>
+            ))}
+          </div>
         </div>
         <hr />
       </li>
@@ -78,6 +108,9 @@ export default function Timeline() {
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
           Gained experience in building real world software to solve business
           needs.
+          <div>
+            <div className="badge badge-secondary badge-outline">VB</div>
+          </div>
         </div>
         <hr />
       </li>

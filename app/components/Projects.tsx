@@ -11,6 +11,7 @@ export default function Projects() {
       description: "A trivia game that uses an open source trivia API.",
       imageUrl: triviaPic,
       projectUrl: "https://trivia-app-mauve-six.vercel.app",
+      chips: ["React", "TypeScript", "dasiyUI", "Next.js", "Trivia API"],
     },
     {
       id: 2,
@@ -18,6 +19,7 @@ export default function Projects() {
       description: "A fun application that is a clone of Google's search.",
       imageUrl: googleClone,
       projectUrl: "https://github.com/DarickMcBride/google-clone",
+      chips: ["React", "TypeScript", "TailwindCSS", "Next.js", "Google API"],
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ export default function Projects() {
       description: "A project that uses IMDB's API to display movies.",
       imageUrl: imdbClone,
       projectUrl: "https://github.com/DarickMcBride/imdb-next",
+      chips: ["React", "TypeScript", "TailwindCSS", "IMDB API"],
     },
   ];
 
