@@ -18,7 +18,7 @@ export default function Timeline() {
         </div>
         <div className="timeline-start md:text-end mb-10">
           <time className="font-mono italic">2018 - Present</time>
-          <div className="text-lg font-black text-white">
+          <div className="text-lg font-black text-primary">
             Lead Software Engineer
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
@@ -47,7 +47,7 @@ export default function Timeline() {
         </div>
         <div className="timeline-end md:text-start mb-10">
           <time className="font-mono italic">2018</time>
-          <div className="text-lg font-black text-white">Graduated College</div>
+          <div className="text-lg font-black text-primary">Graduated College</div>
           <div className="text-md font-semibold text-white">UC Davis</div>
           Received a Bachelor of Science in Computer Science
         </div>
@@ -70,7 +70,7 @@ export default function Timeline() {
         </div>
         <div className="timeline-start md:text-end mb-10">
           <time className="font-mono italic">2017</time>
-          <div className="text-lg font-black text-white">
+          <div className="text-lg font-black text-primary">
             Intern Software Engineer
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>

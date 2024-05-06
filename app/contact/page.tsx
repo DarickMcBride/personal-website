@@ -14,11 +14,11 @@ export default function ContactPage() {
         </p>
         <dl className="space-y-4 pt-2">
           <div>
-            <dt className="text-secondary font-semibold text-lg">Email:</dt>
+            <dt className="text-primary font-semibold text-lg">Email:</dt>
             <dd>
               Feel free to reach out to me via email at{" "}
               <a
-                className="text-info hover:underline hover:text-secondary"
+                className="text-info hover:underline hover:text-primary"
                 href="mailto:contactme@darickmcbride.com"
               >
                 contactme@darickmcbride.com
@@ -30,12 +30,12 @@ export default function ContactPage() {
             </dd>
           </div>
           <div>
-            <dt className="text-secondary font-semibold text-lg">LinkedIn:</dt>
+            <dt className="text-primary font-semibold text-lg">LinkedIn:</dt>
             <dd>
               You can also connect with me on LinkedIn. Visit my LinkedIn
               profile{" "}
               <a
-                className="text-info hover:underline hover:text-secondary"
+                className="text-info hover:underline hover:text-primary"
                 href="https://www.linkedin.com/in/darickmcbride"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,12 +48,12 @@ export default function ContactPage() {
             </dd>
           </div>
           <div>
-            <dt className="text-secondary font-semibold text-lg">GitHub:</dt>
+            <dt className="text-primary font-semibold text-lg">GitHub:</dt>
             <dd>
               For a deeper look at my technical skills and projects, visit my
               GitHub profile{" "}
               <a
-                className="text-info hover:underline hover:text-secondary"
+                className="text-info hover:underline hover:text-primary"
                 href="https://github.com/DarickMcBride"
                 target="_blank"
                 rel="noopener noreferrer"

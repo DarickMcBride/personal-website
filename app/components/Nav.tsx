@@ -31,14 +31,14 @@ export default function Nav() {
               }`}
             >
               <span
-                className={`nav-indicator mr-4 h-px w-8 bg-base-content transition-all group-hover:w-12 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-white motion-reduce:transition-none ${
+                className={`nav-indicator mr-4 h-px w-8 bg-base-content transition-all group-hover:w-12 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary motion-reduce:transition-none ${
                   active === link.path
                     ? "w-12 bg-primary"
                     : ""
                 }`}
               ></span>
               <span
-                className={`nav-text text-xs font-bold uppercase tracking-widest active:text-primary group-hover:text-white group-focus-visible:text-white ${
+                className={`nav-text text-xs font-bold uppercase tracking-widest active:text-primary group-hover:text-primary group-focus-visible:text-primary ${
                   active === link.path ? "text-primary" : ""
                 }`}
               >

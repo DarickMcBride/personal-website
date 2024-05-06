@@ -13,7 +13,7 @@ export default function ContactButtons() {
           <FaEnvelope
             href="mailto:contactme@darickmcbride.com"
             target="_blank"
-            className="size-7 hover:text-secondary"
+            className="size-7 hover:text-primary"
           />
         </a>
       </div>
@@ -23,7 +23,7 @@ export default function ContactButtons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="size-7 hover:text-secondary" />
+          <FaLinkedin className="size-7 hover:text-primary" />
         </a>
       </div>
       <div className="tooltip" data-tip="Visit my GitHub profile">
@@ -32,7 +32,7 @@ export default function ContactButtons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="size-7 hover:text-secondary" />
+          <FaGithub className="size-7 hover:text-primary" />
         </a>
       </div>
       <div className="tooltip" data-tip="Download my resume">
@@ -44,7 +44,7 @@ export default function ContactButtons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFilePdf className="size-7 hover:text-secondary" />
+          <FaFilePdf className="size-7 hover:text-primary" />
         </Link>
       </div>
     </div>

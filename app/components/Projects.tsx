@@ -8,14 +8,14 @@ export default function Projects() {
     {
       id: 1,
       title: "Trivia Game",
-      description: "A trivia game that uses the Open Trivia Database API.",
+      description: "A trivia game that uses the an open source trivia API.",
       imageUrl: triviaPic,
       projectUrl: "https://trivia-app-mauve-six.vercel.app",
     },
     {
       id: 2,
       title: "Google Clone",
-      description: "A fun application to that is a clone of Google's search.",
+      description: "A fun application that is a clone of Google's search.",
       imageUrl: googleClone,
       projectUrl: "https://github.com/DarickMcBride/google-clone",
     },
@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto py-4">
+    <div className="">
       {projects.map((project) => (
         <div key={project.id} className="py-2">
           <ProjectCard project={project} />
