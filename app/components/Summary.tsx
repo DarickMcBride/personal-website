@@ -19,11 +19,11 @@ export default function Summary() {
     <div className="space-y-3 text-base-content">
       <p>
         I am a{" "}
-        <span className="font-semibold text-primary">Software Engineer</span>{" "}
+        <span className="font-semibold text-primary">Full Stack Engineer</span>{" "}
         with {yearsSince()}+ years of industry experience. I&apos;m driven by
         the challenge of transforming code into user-centric solutions. My
         expertise is in{" "}
-        <span className="font-semibold text-primary">full-stack React</span>{" "}
+        <span className="font-semibold text-primary">React</span>{" "}
         apps, which has been a game-changer in crafting interactive web
         experiences. Beyond coding, nature is my muse, inspiring me to create
         software that is not only functional but also harmonious and
