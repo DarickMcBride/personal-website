@@ -4,9 +4,9 @@ import { Providers } from "./providers";
 import Background from "./components/Background";
 
 export const metadata: Metadata = {
-  title: "Darick McBride - Software Developer",
+  title: "Darick McBride - Software Engineer",
   description:
-    "This is a personal website for Darick McBride, a software developer based in the United States. Here you can learn more about Darick, his skills, and his projects. You can also get in touch with him to discuss opportunities or collaborations.",
+    "This is a personal website for Darick McBride, a software engineer based in the United States. Here you can learn more about Darick, his skills, and his projects. You can also get in touch with him to discuss opportunities or collaborations.",
 };
 
 export default function RootLayout({
