@@ -8,7 +8,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Trivia Game",
-      description: "A trivia game that uses the an open source trivia API.",
+      description: "A trivia game that uses an open source trivia API.",
       imageUrl: triviaPic,
       projectUrl: "https://trivia-app-mauve-six.vercel.app",
     },

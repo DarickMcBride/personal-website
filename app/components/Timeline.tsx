@@ -51,7 +51,7 @@ export default function Timeline() {
             Graduated College
           </div>
           <div className="text-md font-semibold text-white">UC Davis</div>
-          Received a Bachelor of Science in Computer Science
+          Received a Bachelor of Science in Computer Science.
         </div>
         <hr />
       </li>
@@ -77,7 +77,7 @@ export default function Timeline() {
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
           Gained experience in building real world software to solve business
-          needs
+          needs.
         </div>
         <hr />
       </li>
@@ -100,7 +100,7 @@ export default function Timeline() {
           <time className="font-mono italic">2015</time>
           <div className="text-lg font-black text-primary">Started College</div>
           <div className="text-md font-semibold text-white">UC Davis</div>
-          Found my passion for software engineering and started my journey
+          Found my passion for software engineering and started my journey.
         </div>
         <hr />
       </li>
@@ -124,8 +124,8 @@ export default function Timeline() {
           <div className="text-lg font-black text-primary">
             The Forgotten Years
           </div>
-          Took a quick detour into a career as an automotive mechanic till a
-          mentor made me realize my potential
+          Took a quick detour into a career as an automotive mechanic until a
+          mentor made me realize my potential.
         </div>
         <hr />
       </li>

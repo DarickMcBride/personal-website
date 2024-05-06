@@ -12,7 +12,7 @@ interface Project {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <a href={project.projectUrl}>
+    <a href={project.projectUrl} target="_blank" rel="noreferrer noopener">
       <div className="card card-side p-4 bg-none hover:bg-gray-700 hover:bg-opacity-40 hover:shadow-lg">
         <figure>
           <Image src={project.imageUrl} alt={project.title} className="w-36" />
