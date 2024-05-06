@@ -4,18 +4,18 @@ export default function Background() {
   return (
     <>
       <div
-        className="fixed h-full w-full top-5 left-1/2 
-    transform -translate-x-1/2 z-negative opacity-30 px-4"
+        className="fixed left-1/2 top-5 z-negative h-full 
+    w-full -translate-x-1/2 transform px-4 opacity-30"
       >
         <Image
           src="/icon.svg"
           alt="Logo"
-          className="w-full h-full object-contain"
+          className="h-full w-full object-contain"
           width={500}
           height={0}
         />
       </div>
-      <div className="fixed h-screen w-screen backdrop-filter backdrop-blur-xl z-1"></div>
+      <div className="z-1 fixed h-screen w-screen backdrop-blur-xl backdrop-filter"></div>
     </>
   );
 }

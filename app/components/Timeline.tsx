@@ -1,6 +1,6 @@
 export default function Timeline() {
   return (
-    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+    <ul className="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
       <li>
         <div className="timeline-middle">
           <svg
@@ -16,7 +16,7 @@ export default function Timeline() {
             />
           </svg>
         </div>
-        <div className="timeline-start md:text-end mb-10">
+        <div className="timeline-start mb-10 md:text-end">
           <time className="font-mono italic">2018 - Present</time>
           <div className="text-lg font-black text-primary">
             Lead Software Engineer
@@ -45,7 +45,7 @@ export default function Timeline() {
             />
           </svg>
         </div>
-        <div className="timeline-end md:text-start mb-10">
+        <div className="timeline-end mb-10 md:text-start">
           <time className="font-mono italic">2018</time>
           <div className="text-lg font-black text-primary">
             Graduated College
@@ -70,7 +70,7 @@ export default function Timeline() {
             />
           </svg>
         </div>
-        <div className="timeline-start md:text-end mb-10">
+        <div className="timeline-start mb-10 md:text-end">
           <time className="font-mono italic">2017</time>
           <div className="text-lg font-black text-primary">
             Intern Software Engineer
@@ -96,7 +96,7 @@ export default function Timeline() {
             />
           </svg>
         </div>
-        <div className="timeline-end md:text-start mb-10">
+        <div className="timeline-end mb-10 md:text-start">
           <time className="font-mono italic">2015</time>
           <div className="text-lg font-black text-primary">Started College</div>
           <div className="text-md font-semibold text-white">UC Davis</div>
@@ -119,7 +119,7 @@ export default function Timeline() {
             />
           </svg>
         </div>
-        <div className="timeline-start md:text-end mb-10">
+        <div className="timeline-start mb-10 md:text-end">
           <time className="font-mono italic">2007 - 2013</time>
           <div className="text-lg font-black text-primary">
             The Forgotten Years
