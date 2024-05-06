@@ -33,7 +33,7 @@ export default function Nav() {
               <span
                 className={`nav-indicator mr-4 h-px w-8 bg-base-content transition-all group-hover:w-12 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary motion-reduce:transition-none ${
                   active === link.path
-                    ? "w-12 bg-primary"
+                    ? "w-16 bg-primary"
                     : ""
                 }`}
               ></span>
