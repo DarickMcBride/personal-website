@@ -124,7 +124,7 @@ export default function Timeline() {
           <div className="text-lg font-black text-primary">
             The Forgotten Years
           </div>
-          Took a quick detour into the career as an automotive mechanic till a
+          Took a quick detour into a career as an automotive mechanic till a
           mentor made me realize my potential
         </div>
         <hr />
