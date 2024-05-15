@@ -17,15 +17,15 @@ export default function Timeline() {
           </svg>
         </div>
         <div className="timeline-start mb-10 md:text-end">
-          <time className="font-mono italic">2018 - Present</time>
+          <time className="font-mono italic">2020 - Present</time>
           <div className="text-lg font-black text-primary">
             Lead Software Engineer
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
-          Build and maintain internal web applications for business operations.
-          Lead the selection of technologies and architecture for new projects.
-          Mentor junior developers and provide code reviews. Collaborate with
-          stakeholder to meet their needs.
+          <p>
+            Showing others how to fail successfully. Lesson learned: You must
+            fail often to succeed.
+          </p>
           <div className="mt-2 flex flex-wrap gap-2">
             {[
               "React",
@@ -45,7 +45,6 @@ export default function Timeline() {
 
         <hr />
       </li>
-
       <li>
         <div className="timeline-middle">
           <svg
@@ -62,29 +61,20 @@ export default function Timeline() {
           </svg>
         </div>
         <div className="timeline-end mb-10 md:text-start">
-          <time className="font-mono italic">2018</time>
+          <time className="font-mono italic">2018 - 2020</time>
           <div className="text-lg font-black text-primary">
-            Graduated College
+            Official Bug Destroyer
           </div>
-          <div className="text-md font-semibold text-white">UC Davis</div>
-          Received a Bachelor of Science in Computer Science.
-          <div className="mt-2 flex flex-wrap gap-2">
-            {[
-              "C++",
-              "JavaScript",
-              "Functional Programming",
-              "DSA",
-              "Networking",
-              "Discreet Math",
-            ].map((chip, i) => (
-              <div key={i} className="badge badge-secondary badge-outline">
-                {chip}
-              </div>
-            ))}
-          </div>
+          <div className="text-md font-semibold text-white">Walters & Wolf</div>
+          <p>
+            Quickly realized how little I know and made every mistake one could
+            make. Lesson learned: Stay humble and always be willing to learn.
+          </p>
         </div>
+
         <hr />
       </li>
+
       <li>
         <div className="timeline-middle">
           <svg
@@ -106,8 +96,10 @@ export default function Timeline() {
             Intern Software Engineer
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
-          Gained experience in building real world software to solve business
-          needs.
+          <p>
+            Introduced to &apos;real-world&apos; projects. Fixed one bug, ten
+            more appeared. Lesson learned: There is always room for improvement.
+          </p>
           <div className="mt-2">
             <div className="badge badge-secondary badge-outline">VB</div>
           </div>
@@ -130,10 +122,28 @@ export default function Timeline() {
           </svg>
         </div>
         <div className="timeline-end mb-10 md:text-start">
-          <time className="font-mono italic">2015</time>
-          <div className="text-lg font-black text-primary">Started College</div>
+          <time className="font-mono italic">2015 - 2018</time>
+          <div className="text-lg font-black text-primary">
+            Began my Odyssey of Errors
+          </div>
           <div className="text-md font-semibold text-white">UC Davis</div>
-          Found my passion for software engineering and started my journey.
+          <p>
+            Tried to fix a bug for three days. Turned out to be a missing
+            semicolon. Lesson learned: Details matter!
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {[
+              "C++",
+              "JavaScript",
+              "Functional Programming",
+              "DSA",
+              "Networking",
+            ].map((chip, i) => (
+              <div key={i} className="badge badge-secondary badge-outline">
+                {chip}
+              </div>
+            ))}
+          </div>
         </div>
         <hr />
       </li>
@@ -157,8 +167,12 @@ export default function Timeline() {
           <div className="text-lg font-black text-primary">
             The Forgotten Years
           </div>
-          Took a quick detour into a career as an automotive mechanic until a
-          mentor made me realize my potential.
+          <p>
+            Took a quick detour into a career as an automotive mechanic until a
+            mentor made me realize my potential. Turns out fixing cars
+            translates well to debugging code. Who knew? Lesson learned: Believe
+            in yourself!
+          </p>
         </div>
         <hr />
       </li>
