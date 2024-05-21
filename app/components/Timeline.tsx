@@ -19,7 +19,7 @@ export default function Timeline() {
         <div className="timeline-start mb-10 md:text-end">
           <time className="font-mono italic">2020 - Present</time>
           <div className="text-lg font-black text-primary">
-            Lead Software Engineer
+            Senior Software Engineer
           </div>
           <div className="text-md font-semibold text-white">Walters & Wolf</div>
           <p>
