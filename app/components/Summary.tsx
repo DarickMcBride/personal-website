@@ -40,7 +40,7 @@ export default function Summary() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tech && Code Collective
+          Tech && Code
         </a>{" "}
         meetup in Sacramento, fostering a community where developers can
         exchange ideas and grow.
