@@ -32,8 +32,8 @@ export default function Home() {
         </header>
 
         <main className="pt-24 lg:w-1/2 lg:py-24">
-          {sections.map((section) => (
-            <>
+          {sections.map((section, i) => (
+            <div key={i}>
               <h2 className="py-5 tracking-wider text-white md:hidden">
                 {section.name}
               </h2>
@@ -43,7 +43,7 @@ export default function Home() {
               >
                 <section.Component />
               </section>
-            </>
+            </div>
           ))}
           <footer>
             <Footer />
