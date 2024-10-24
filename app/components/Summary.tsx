@@ -1,15 +1,12 @@
 export default function Summary() {
   const yearsSince = () => {
     const startYear = 2018;
-    const startMonth = 9; // October is the 10th month, but JavaScript months are zero-indexed, so October is month 9
+    const startMonth = 8; // October is the 10th month, but JavaScript months are zero-indexed, so October is month 9
     const startDate = new Date(startYear, startMonth);
     const currentDate = new Date();
     let years = currentDate.getFullYear() - startDate.getFullYear();
-    if (
-      currentDate.getMonth() < startDate.getMonth() ||
-      (currentDate.getMonth() === startDate.getMonth() &&
-        currentDate.getDate() < startDate.getDate())
-    ) {
+    // If the current month is before the start month, subtract a year
+    if (currentDate.getMonth() < startDate.getMonth()) {
       years--;
     }
     return years;
@@ -23,11 +20,10 @@ export default function Summary() {
         with {yearsSince()}+ years of industry experience. I&apos;m driven by
         the challenge of transforming code into user-centric solutions. My
         expertise is in{" "}
-        <span className="font-semibold text-primary">React</span>{" "}
-        apps, which has been a game-changer in crafting interactive web
-        experiences. Beyond coding, nature is my muse, inspiring me to create
-        software that is not only functional but also harmonious and
-        sustainable.
+        <span className="font-semibold text-primary">React</span> apps, which
+        has been a game-changer in crafting interactive web experiences. Beyond
+        coding, nature is my muse, inspiring me to create software that is not
+        only functional but also harmonious and sustainable.
       </p>
       <p>
         Away from the keyboard, I&apos;m an avid camper and dog lover, finding
