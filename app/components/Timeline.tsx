@@ -109,7 +109,6 @@ export default function Timeline() {
           </p>
         </div>
 
-        <hr />
       </li>
 
       <li>
