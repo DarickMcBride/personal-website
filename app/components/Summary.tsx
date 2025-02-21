@@ -20,10 +20,10 @@ export default function Summary() {
         with {yearsSince()}+ years of industry experience. I&apos;m driven by
         the challenge of transforming code into user-centric solutions. My
         expertise is in{" "}
-        <span className="font-semibold text-primary">React</span> apps, which
-        has been a game-changer in crafting interactive web experiences. Beyond
+        <span className="font-semibold text-primary">React</span> apps and{" "}
+        <span className="font-semibold text-primary">.NET</span>. Beyond
         coding, nature is my muse, inspiring me to create software that is not
-        only functional but also harmonious and sustainable.
+        only functional but also user-centric and aesthetic.
       </p>
       <p>
         Away from the keyboard, I&apos;m an avid camper and dog lover, finding
@@ -43,7 +43,7 @@ export default function Summary() {
       </p>
       <p>
         This website is a window into my professional journey, showcasing my
-        projects and the passion I bring to each one.
+        projects and my experience in the field.
       </p>
     </div>
   );
