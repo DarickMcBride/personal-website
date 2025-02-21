@@ -21,7 +21,7 @@ export default function Summary() {
         the challenge of transforming code into user-centric solutions. My
         expertise is in{" "}
         <span className="font-semibold text-primary">React</span> apps and{" "}
-        <span className="font-semibold text-primary">.NET</span>. Beyond
+        <span className="font-semibold text-primary">.NET Core</span>. Beyond
         coding, nature is my muse, inspiring me to create software that is not
         only functional but also user-centric and aesthetic.
       </p>

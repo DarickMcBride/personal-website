@@ -26,7 +26,7 @@ export default function Timeline() {
             Helping improve civil services.
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
-            {["JavaScript", "C#", ".NET"].map((chip, i) => (
+            {["JavaScript", "C#", ".NET Core"].map((chip, i) => (
               <div key={i} className="badge badge-secondary badge-outline">
                 {chip}
               </div>
