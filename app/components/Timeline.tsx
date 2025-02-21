@@ -71,6 +71,7 @@ export default function Timeline() {
               "Vite",
               "C#",
               "Python",
+              ".NET"
             ].map((chip, i) => (
               <div key={i} className="badge badge-secondary badge-outline">
                 {chip}
