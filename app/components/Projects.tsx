@@ -10,7 +10,7 @@ export default function Projects() {
       title: "Trivia Game",
       description: "A trivia game that uses an open source trivia API.",
       imageUrl: triviaPic,
-      projectUrl: "https://trivia-app-mauve-six.vercel.app",
+      projectUrl: "https://github.com/DarickMcBride/trivia-app",
       chips: ["React", "TypeScript", "dasiyUI", "Next.js", "Trivia API"],
     },
     {
