@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
-import Background from "./components/Background";
+import Background from "../Background";
 
 export const metadata: Metadata = {
   title: "Darick McBride - Software Engineer",
